@@ -3,29 +3,33 @@
     "23haru": {},
     "23natu": {},
     "23aki": {
-        "星屑テレパス(TV)": {
+        "星屑テレパス": {
             "aid": "234001t",
             "time":"22:00",
             "koma":"mo3",
-            "url": "https://hoshitele-anime.com/"
+            "url": "https://hoshitele-anime.com/",
+            "kw":"星テレ"
         },
         "星屑テレパス(FOD)": {
             "aid": "234001f",
             "time":"21:30",
             "koma":"mo2",
-            "url": "https://hoshitele-anime.com/"
+            "url": "https://hoshitele-anime.com/",
+            "kw":"星テレ"
         },
         "星屑テレパス(配信)": {
             "aid": "234001s",
             "time":"24:00",
             "koma":"mo7",
-            "url": "https://hoshitele-anime.com/"
+            "url": "https://hoshitele-anime.com/",
+            "kw":"星テレ"
         },
         "アイドルマスター ミリオンライブ！(10:00)": {
             "aid": "234002t",
             "time":"10:00",
             "koma":"su11",
-            "url": "https://millionlive-anime.idolmaster-official.jp/"
+            "url": "https://millionlive-anime.idolmaster-official.jp/",
+            "kw":"アイマス,ミリオン,ミリマス"
         }
     }
 }
