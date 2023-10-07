@@ -4,2751 +4,2751 @@
     "23natu": {},
     "23aki": {
         "チキップダンサーズ 第3期(NHK Eテレ)": {
-            "aid": "234001t",
+            "aid": "234001ne",
             "time": "08:45",
             "koma": "mo11",
             "url": "https://www.san-x.co.jp/chickipdancers/",
             "kw": ""
         },
         "チキップダンサーズ 第3期(配信)": {
-            "aid": "234001s",
+            "aid": "234001nh",
             "time": "-",
             "koma": "mo11",
             "url": "https://www.san-x.co.jp/chickipdancers/",
             "kw": ""
         },
         "冒険者になりたいと都に出て行った娘がSランクになってた(AT-X)": {
-            "aid": "234002x",
+            "aid": "234002at",
             "time": "23:00",
             "koma": "th5",
             "url": "https://s-rank-musume.com/",
             "kw": "Sランク娘,Sラン娘,むすえす"
         },
         "冒険者になりたいと都に出て行った娘がSランクになってた(TOKYO MX)": {
-            "aid": "234002t",
+            "aid": "234002mx",
             "time": "25:05",
             "koma": "th9",
             "url": "https://s-rank-musume.com/",
             "kw": "Sランク娘,Sラン娘,むすえす"
         },
         "冒険者になりたいと都に出て行った娘がSランクになってた(BS日テレ)": {
-            "aid": "234002t",
+            "aid": "234002bn",
             "time": "22:30",
             "koma": "sa4",
             "url": "https://s-rank-musume.com/",
             "kw": "Sランク娘,Sラン娘,むすえす"
         },
         "冒険者になりたいと都に出て行った娘がSランクになってた(Abema)": {
-            "aid": "234002a",
+            "aid": "234002ab",
             "time": "23:00",
             "koma": "th5",
             "url": "https://s-rank-musume.com/",
             "kw": "Sランク娘,Sラン娘,むすえす"
         },
         "冒険者になりたいと都に出て行った娘がSランクになってた(配信)": {
-            "aid": "234002s",
+            "aid": "234002nh",
             "time": "-",
             "koma": "mo11",
             "url": "https://s-rank-musume.com/",
             "kw": "Sランク娘,Sラン娘,むすえす"
         },
         "お嬢と番犬くん(TOKYO MX)": {
-            "aid": "234003t",
+            "aid": "234003mx",
             "time": "25:05",
             "koma": "th9",
             "url": "https://ojoutobankenkun.com/",
             "kw": ""
         },
         "お嬢と番犬くん(BS朝日)": {
-            "aid": "234003t",
+            "aid": "234003ba",
             "time": "23:30",
             "koma": "fr6",
             "url": "https://ojoutobankenkun.com/",
             "kw": ""
         },
         "お嬢と番犬くん(読売テレビ)": {
-            "aid": "234003t",
+            "aid": "234003yt",
             "time": "25:59",
             "koma": "mo10",
             "url": "https://ojoutobankenkun.com/",
             "kw": ""
         },
         "お嬢と番犬くん(Amazon)": {
-            "aid": "234003z",
+            "aid": "234003az",
             "time": "25:30",
             "koma": "th10",
             "url": "https://ojoutobankenkun.com/",
             "kw": ""
         },
         "お嬢と番犬くん(配信)": {
-            "aid": "234003s",
+            "aid": "234003nh",
             "time": "24:00",
             "koma": "we7",
             "url": "https://ojoutobankenkun.com/",
             "kw": ""
         },
         "葬送のフリーレン(日本テレビ系)": {
-            "aid": "234004t",
+            "aid": "234004nt",
             "time": "23:00",
             "koma": "fr5",
             "url": "https://frieren-anime.jp/",
             "kw": "フリレン,葬フリ"
         },
         "葬送のフリーレン(AT-X)": {
-            "aid": "234004x",
+            "aid": "234004at",
             "time": "23:30",
             "koma": "su6",
             "url": "https://frieren-anime.jp/",
             "kw": "フリレン,葬フリ"
         },
         "葬送のフリーレン(配信)": {
-            "aid": "234004s",
+            "aid": "234004nh",
             "time": "24:00",
             "koma": "fr7",
             "url": "https://frieren-anime.jp/",
             "kw": "フリレン,葬フリ"
         },
         "め組の大吾 救国のオレンジ(日本テレビ系)": {
-            "aid": "234005t",
+            "aid": "234005nt",
             "time": "17:30",
             "koma": "sa11",
             "url": "https://meguminodaigo.com/",
             "kw": ""
         },
         "め組の大吾 救国のオレンジ(配信)": {
-            "aid": "234005s",
+            "aid": "234005nh",
             "time": "24:00",
             "koma": "tu7",
             "url": "https://meguminodaigo.com/",
             "kw": ""
         },
         "ラグナクリムゾン(TOKYO MX)": {
-            "aid": "234006t",
+            "aid": "234006mx",
             "time": "25:30",
             "koma": "sa10",
             "url": "https://ragna-crimson.com/",
             "kw": ""
         },
         "ラグナクリムゾン(BS11)": {
-            "aid": "234006t",
+            "aid": "234006b1",
             "time": "25:30",
             "koma": "sa10",
             "url": "https://ragna-crimson.com/",
             "kw": ""
         },
         "ラグナクリムゾン(MBS)": {
-            "aid": "234006t",
+            "aid": "234006mb",
             "time": "27:38",
             "koma": "sa11",
             "url": "https://ragna-crimson.com/",
             "kw": ""
         },
         "ラグナクリムゾン(dアニメ)": {
-            "aid": "234006d",
+            "aid": "234006da",
             "time": "24:00",
             "koma": "sa7",
             "url": "https://ragna-crimson.com/",
             "kw": ""
         },
         "ラグナクリムゾン(配信)": {
-            "aid": "234006s",
+            "aid": "234006nh",
             "time": "24:00",
             "koma": "th7",
             "url": "https://ragna-crimson.com/",
             "kw": ""
         },
         "トランスフォーマーアーススパーク(テレビ東京系)": {
-            "aid": "234007t",
+            "aid": "234007tt",
             "time": "09:15",
             "koma": "su11",
             "url": "https://tf.takaratomy.co.jp/tf_earth_spark/",
             "kw": ""
         },
         "シャングリラ・フロンティア(TBS系)": {
-            "aid": "234008t",
+            "aid": "234008te",
             "time": "17:00",
             "koma": "su11",
             "url": "https://anime.shangrilafrontier.com/",
             "kw": ""
         },
         "シャングリラ・フロンティア(配信)": {
-            "aid": "234008s",
+            "aid": "234008nh",
             "time": "18;00",
             "koma": "su11",
             "url": "https://anime.shangrilafrontier.com/",
             "kw": ""
         },
         "キャプテン翼 シーズン2-ジュニアユース編-(テレビ東京系)": {
-            "aid": "234009t",
+            "aid": "234009tt",
             "time": "17:30",
             "koma": "su11",
             "url": "https://ball-ha-tomodachi.com/jryouth/",
             "kw": ""
         },
         "キャプテン翼 シーズン2-ジュニアユース編-(先行配信)": {
-            "aid": "234009b",
+            "aid": "234009sh",
             "time": "18:00",
             "koma": "su11",
             "url": "https://ball-ha-tomodachi.com/jryouth/",
             "kw": ""
         },
         "キャプテン翼 シーズン2-ジュニアユース編-(配信)": {
-            "aid": "234009t",
+            "aid": "234009nh",
             "time": "18:00",
             "koma": "we11",
             "url": "https://ball-ha-tomodachi.com/jryouth/",
             "kw": ""
         },
         "オーバーテイク！(AT-X)": {
-            "aid": "234010x",
+            "aid": "234010at",
             "time": "22:00",
             "koma": "su3",
             "url": "https://komaki-motors.com/",
             "kw": ""
         },
         "オーバーテイク！(TOKYO MX)": {
-            "aid": "234010t",
+            "aid": "234010mx",
             "time": "24:30",
             "koma": "su8",
             "url": "https://komaki-motors.com/",
             "kw": ""
         },
         "オーバーテイク！(サンテレビ)": {
-            "aid": "234010t",
+            "aid": "234010st",
             "time": "25:00",
             "koma": "su9",
             "url": "https://komaki-motors.com/",
             "kw": ""
         },
         "オーバーテイク！(BS11)": {
-            "aid": "234010t",
+            "aid": "234010b1",
             "time": "25:05",
             "koma": "su9",
             "url": "https://komaki-motors.com/",
             "kw": ""
         },
         "オーバーテイク！(テレビ愛知)": {
-            "aid": "234010t",
+            "aid": "234010ti",
             "time": "25:35",
             "koma": "su10",
             "url": "https://komaki-motors.com/",
             "kw": ""
         },
         "オーバーテイク！(KBS京都)": {
-            "aid": "234010t",
+            "aid": "234010kk",
             "time": "24:30",
             "koma": "mo8",
             "url": "https://komaki-motors.com/",
             "kw": ""
         },
         "オーバーテイク！(静岡放送)": {
-            "aid": "234010t",
+            "aid": "234010sz",
             "time": "25:19",
             "koma": "mo9",
             "url": "https://komaki-motors.com/",
             "kw": ""
         },
         "オーバーテイク！(岩手朝日テレビ)": {
-            "aid": "234010t",
+            "aid": "234010it",
             "time": "25:25",
             "koma": "mo9",
             "url": "https://komaki-motors.com/",
             "kw": ""
         },
         "オーバーテイク！(dアニメ)": {
-            "aid": "234010d",
+            "aid": "234010da",
             "time": "23:00",
             "koma": "su5",
             "url": "https://komaki-motors.com/",
             "kw": ""
         },
         "オーバーテイク！(配信)": {
-            "aid": "234010s",
+            "aid": "234010nh",
             "time": "23:00",
             "koma": "fr5",
             "url": "https://komaki-motors.com/",
             "kw": ""
         },
         "でこぼこ魔女の親子事情(TOKYO MX)": {
-            "aid": "234011t",
+            "aid": "234011mx",
             "time": "22:00",
             "koma": "su3",
             "url": "https://dekoboko-majo-anime.jp/",
             "kw": ""
         },
         "でこぼこ魔女の親子事情(BSフジ)": {
-            "aid": "234011t",
+            "aid": "234011bf",
             "time": "24:00",
             "koma": "tu7",
             "url": "https://dekoboko-majo-anime.jp/",
             "kw": ""
         },
         "でこぼこ魔女の親子事情(AT-X)": {
-            "aid": "234011x",
+            "aid": "234011at",
             "time": "22:30",
             "koma": "th4",
             "url": "https://dekoboko-majo-anime.jp/",
             "kw": ""
         },
         "でこぼこ魔女の親子事情(dアニメ)": {
-            "aid": "234011d",
+            "aid": "234011da",
             "time": "22:00",
             "koma": "th3",
             "url": "https://dekoboko-majo-anime.jp/",
             "kw": ""
         },
         "でこぼこ魔女の親子事情(配信)": {
-            "aid": "234011s",
+            "aid": "234011nh",
             "time": "22:00",
             "koma": "su3",
             "url": "https://dekoboko-majo-anime.jp/",
             "kw": ""
         },
         "範馬刃牙 第2期【野人戦争編】(TOKYO MX)": {
-            "aid": "234012t",
+            "aid": "234012mx",
             "time": "23:30",
             "koma": "su6",
             "url": "https://baki-anime.jp/",
             "kw": ""
         },
         "範馬刃牙 第2期【野人戦争編】(サンテレビ)": {
-            "aid": "234012t",
+            "aid": "234012st",
             "time": "23:30",
             "koma": "su6",
             "url": "https://baki-anime.jp/",
             "kw": ""
         },
         "範馬刃牙 第2期【野人戦争編】(BS日テレ)": {
-            "aid": "234012t",
+            "aid": "234012bn",
             "time": "23:30",
             "koma": "su6",
             "url": "https://baki-anime.jp/",
             "kw": ""
         },
         "範馬刃牙 第2期【野人戦争編】(テレビ愛知)": {
-            "aid": "234012t",
+            "aid": "234012ti",
             "time": "26:05",
             "koma": "mo11",
             "url": "https://baki-anime.jp/",
             "kw": ""
         },
         "範馬刃牙 第2期【野人戦争編】(HTB北海道テレビ)": {
-            "aid": "234012t",
+            "aid": "234012hh",
             "time": "26:25",
             "koma": "mo11",
             "url": "https://baki-anime.jp/",
             "kw": ""
         },
         "範馬刃牙 第2期【野人戦争編】(TVQ)": {
-            "aid": "234012t",
+            "aid": "234012tq",
             "time": "27:00",
             "koma": "mo11",
             "url": "https://baki-anime.jp/",
             "kw": ""
         },
         "範馬刃牙 第2期【野人戦争編】(KBS京都)": {
-            "aid": "234012t",
+            "aid": "234012kk",
             "time": "25:30",
             "koma": "we10",
             "url": "https://baki-anime.jp/",
             "kw": ""
         },
         "MFゴースト(TOKYO MX)": {
-            "aid": "234013t",
+            "aid": "234013mx",
             "time": "24:00",
             "koma": "su7",
             "url": "https://mfg-anime.com/",
             "kw": ""
         },
         "MFゴースト(BS11)": {
-            "aid": "234013t",
+            "aid": "234013b1",
             "time": "24:00",
             "koma": "su7",
             "url": "https://mfg-anime.com/",
             "kw": ""
         },
         "MFゴースト(RKB毎日放送)": {
-            "aid": "234013t",
+            "aid": "234013rm",
             "time": "25:20",
             "koma": "su9",
             "url": "https://mfg-anime.com/",
             "kw": ""
         },
         "MFゴースト(読売テレビ)": {
-            "aid": "234013t",
+            "aid": "234013yt",
             "time": "26:29",
             "koma": "mo11",
             "url": "https://mfg-anime.com/",
             "kw": ""
         },
         "MFゴースト(テレビ愛知)": {
-            "aid": "234013t",
+            "aid": "234013ti",
             "time": "25:30",
             "koma": "tu10",
             "url": "https://mfg-anime.com/",
             "kw": ""
         },
         "MFゴースト(静岡放送)": {
-            "aid": "234013t",
+            "aid": "234013sz",
             "time": "25:25",
             "koma": "we9",
             "url": "https://mfg-anime.com/",
             "kw": ""
         },
         "MFゴースト(テレビせとうち)": {
-            "aid": "234013t",
+            "aid": "234013ts",
             "time": "25:29",
             "koma": "fr9",
             "url": "https://mfg-anime.com/",
             "kw": ""
         },
         "MFゴースト(Animax)": {
-            "aid": "234013t",
+            "aid": "234013ax",
             "time": "23:00",
             "koma": "sa5",
             "url": "https://mfg-anime.com/",
             "kw": ""
         },
         "MFゴースト(Amazon)": {
-            "aid": "234013z",
+            "aid": "234013az",
             "time": "24:30",
             "koma": "su8",
             "url": "https://mfg-anime.com/",
             "kw": ""
         },
         "MFゴースト(dアニメ)": {
-            "aid": "234013d",
+            "aid": "234013da",
             "time": "24:30",
             "koma": "fr8",
             "url": "https://mfg-anime.com/",
             "kw": ""
         },
         "MFゴースト(配信)": {
-            "aid": "234013s",
+            "aid": "234013nh",
             "time": "24:30",
             "koma": "sa8",
             "url": "https://mfg-anime.com/",
             "kw": ""
         },
         "しーくれっとみっしょん～潜入捜査官は絶対に負けない！～(TOKYO MX)": {
-            "aid": "234014t",
+            "aid": "234014mx",
             "time": "25:00",
             "koma": "su9",
             "url": "https://secretmission.af-original.jp/",
             "kw": ""
         },
         "しーくれっとみっしょん～潜入捜査官は絶対に負けない！～(BS11)": {
-            "aid": "234014t",
+            "aid": "234014b1",
             "time": "25:00",
             "koma": "su9",
             "url": "https://secretmission.af-original.jp/",
             "kw": ""
         },
         "しーくれっとみっしょん～潜入捜査官は絶対に負けない！～(配信)": {
-            "aid": "234014s",
+            "aid": "234014nh",
             "time": "-",
             "koma": "mo11",
             "url": "https://secretmission.af-original.jp/",
             "kw": ""
         },
         "B-PROJECT ～熱烈＊ラブコール～(第3期)(AT-X)": {
-            "aid": "234015x",
+            "aid": "234015at",
             "time": "21:30",
             "koma": "mo2",
             "url": "https://www.bpro-anime.com/",
             "kw": ""
         },
         "B-PROJECT ～熱烈＊ラブコール～(第3期)(テレビ東京)": {
-            "aid": "234015t",
+            "aid": "234015tu",
             "time": "26:00",
             "koma": "mo11",
             "url": "https://www.bpro-anime.com/",
             "kw": ""
         },
         "B-PROJECT ～熱烈＊ラブコール～(第3期)(テレビ大阪)": {
-            "aid": "234015t",
+            "aid": "234015tn",
             "time": "26:00",
             "koma": "mo11",
             "url": "https://www.bpro-anime.com/",
             "kw": ""
         },
         "B-PROJECT ～熱烈＊ラブコール～(第3期)(BS日テレ)": {
-            "aid": "234015t",
+            "aid": "234015bn",
             "time": "23:30",
             "koma": "th6",
             "url": "https://www.bpro-anime.com/",
             "kw": ""
         },
         "B-PROJECT ～熱烈＊ラブコール～(第3期)(dアニメ)": {
-            "aid": "234015d",
+            "aid": "234015da",
             "time": "26:30",
             "koma": "mo11",
             "url": "https://www.bpro-anime.com/",
             "kw": ""
         },
         "B-PROJECT ～熱烈＊ラブコール～(第3期)(配信)": {
-            "aid": "234015s",
+            "aid": "234015nh",
             "time": "26:30",
             "koma": "th11",
             "url": "https://www.bpro-anime.com/",
             "kw": ""
         },
         "ミギとダリ(AT-X)": {
-            "aid": "234016x",
+            "aid": "234016at",
             "time": "22:00",
             "koma": "mo3",
             "url": "https://migitodali.com/",
             "kw": ""
         },
         "ミギとダリ(TOKYO MX)": {
-            "aid": "234016t",
+            "aid": "234016mx",
             "time": "25:35",
             "koma": "mo10",
             "url": "https://migitodali.com/",
             "kw": ""
         },
         "ミギとダリ(BS11)": {
-            "aid": "234016t",
+            "aid": "234016b1",
             "time": "25:00",
             "koma": "tu9",
             "url": "https://migitodali.com/",
             "kw": ""
         },
         "ミギとダリ(サンテレビ)": {
-            "aid": "234016t",
+            "aid": "234016st",
             "time": "25:00",
             "koma": "tu9",
             "url": "https://migitodali.com/",
             "kw": ""
         },
         "ミギとダリ(Amazon)": {
-            "aid": "234016z",
+            "aid": "234016az",
             "time": "22:00",
             "koma": "mo3",
             "url": "https://migitodali.com/",
             "kw": ""
         },
         "ミギとダリ(配信)": {
-            "aid": "234016s",
+            "aid": "234016nh",
             "time": "-",
             "koma": "fr11",
             "url": "https://migitodali.com/",
             "kw": ""
         },
         "SHY(シャイ)(テレビ東京系)": {
-            "aid": "234017t",
+            "aid": "234017tt",
             "time": "24:00",
             "koma": "mo7",
             "url": "https://shy-anime.com/",
             "kw": ""
         },
         "SHY(シャイ)(BS日テレ)": {
-            "aid": "234017t",
+            "aid": "234017bn",
             "time": "24:30",
             "koma": "mo8",
             "url": "https://shy-anime.com/",
             "kw": ""
         },
         "SHY(シャイ)(NST新潟総合テレビ)": {
-            "aid": "234017t",
+            "aid": "234017ns",
             "time": "26:25",
             "koma": "th11",
             "url": "https://shy-anime.com/",
             "kw": ""
         },
         "SHY(シャイ)(AT-X)": {
-            "aid": "234017x",
+            "aid": "234017at",
             "time": "21:30",
             "koma": "we2",
             "url": "https://shy-anime.com/",
             "kw": ""
         },
         "SHY(シャイ)(dアニメ)": {
-            "aid": "234017d",
+            "aid": "234017da",
             "time": "12:00",
             "koma": "tu11",
             "url": "https://shy-anime.com/",
             "kw": ""
         },
         "SHY(シャイ)(配信)": {
-            "aid": "234017s",
+            "aid": "234017nh",
             "time": "-",
             "koma": "fr11",
             "url": "https://shy-anime.com/",
             "kw": ""
         },
         "とあるおっさんのＶＲＭＭＯ活動記(BS11)": {
-            "aid": "234018t",
+            "aid": "234018b1",
             "time": "25:00",
             "koma": "mo9",
             "url": "https://toaru-ossan.com/",
             "kw": ""
         },
         "とあるおっさんのＶＲＭＭＯ活動記(TOKYO MX)": {
-            "aid": "234018t",
+            "aid": "234018mx",
             "time": "25:05",
             "koma": "mo9",
             "url": "https://toaru-ossan.com/",
             "kw": ""
         },
         "とあるおっさんのＶＲＭＭＯ活動記(AT-X)": {
-            "aid": "234018x",
+            "aid": "234018at",
             "time": "23:30",
             "koma": "tu6",
             "url": "https://toaru-ossan.com/",
             "kw": ""
         },
         "とあるおっさんのＶＲＭＭＯ活動記(HTB北海道テレビ)": {
-            "aid": "234018t",
+            "aid": "234018hh",
             "time": "25:55",
             "koma": "we10",
             "url": "https://toaru-ossan.com/",
             "kw": ""
         },
         "とあるおっさんのＶＲＭＭＯ活動記(dアニメ)": {
-            "aid": "234018d",
+            "aid": "234018da",
             "time": "25:00",
             "koma": "we9",
             "url": "https://toaru-ossan.com/",
             "kw": ""
         },
         "とあるおっさんのＶＲＭＭＯ活動記(配信)": {
-            "aid": "234018s",
+            "aid": "234018nh",
             "time": "24:00",
             "koma": "sa7",
             "url": "https://toaru-ossan.com/",
             "kw": ""
         },
         "私の推しは悪役令嬢。(TOKYO MX)": {
-            "aid": "234019t",
+            "aid": "234019mx",
             "time": "24:30",
             "koma": "mo8",
             "url": "https://wataoshi-anime.com/",
             "kw": ""
         },
         "私の推しは悪役令嬢。(AT-X)": {
-            "aid": "234019x",
+            "aid": "234019at",
             "time": "20:00",
             "koma": "tu11",
             "url": "https://wataoshi-anime.com/",
             "kw": ""
         },
         "私の推しは悪役令嬢。(チバテレビ)": {
-            "aid": "234019t",
+            "aid": "234019ct",
             "time": "23:30",
             "koma": "we6",
             "url": "https://wataoshi-anime.com/",
             "kw": ""
         },
         "私の推しは悪役令嬢。(テレ玉)": {
-            "aid": "234019t",
+            "aid": "234019tm",
             "time": "23:30",
             "koma": "we6",
             "url": "https://wataoshi-anime.com/",
             "kw": ""
         },
         "私の推しは悪役令嬢。(BS日テレ)": {
-            "aid": "234019t",
+            "aid": "234019bn",
             "time": "23:30",
             "koma": "we6",
             "url": "https://wataoshi-anime.com/",
             "kw": ""
         },
         "私の推しは悪役令嬢。(テレビ神奈川)": {
-            "aid": "234019t",
+            "aid": "234019tk",
             "time": "25:00",
             "koma": "we9",
             "url": "https://wataoshi-anime.com/",
             "kw": ""
         },
         "私の推しは悪役令嬢。(HTB)": {
-            "aid": "234019t",
+            "aid": "234019hb",
             "time": "26:35",
             "koma": "sa11",
             "url": "https://wataoshi-anime.com/",
             "kw": ""
         },
         "私の推しは悪役令嬢。(dアニメ)": {
-            "aid": "234019d",
+            "aid": "234019da",
             "time": "24:30",
             "koma": "mo8",
             "url": "https://wataoshi-anime.com/",
             "kw": ""
         },
         "私の推しは悪役令嬢。(Abema)": {
-            "aid": "234019a",
+            "aid": "234019ab",
             "time": "24:30",
             "koma": "mo8",
             "url": "https://wataoshi-anime.com/",
             "kw": ""
         },
         "私の推しは悪役令嬢。(配信)": {
-            "aid": "234019s",
+            "aid": "234019nh",
             "time": "24:00",
             "koma": "fr7",
             "url": "https://wataoshi-anime.com/",
             "kw": ""
         },
         "鴨乃橋ロンの禁断推理 1st Season(TOKYO MX)": {
-            "aid": "234020t",
+            "aid": "234020mx",
             "time": "22:30",
             "koma": "mo4",
             "url": "https://kamonohashiron.com/",
             "kw": ""
         },
         "鴨乃橋ロンの禁断推理 1st Season(AT-X)": {
-            "aid": "234020x",
+            "aid": "234020at",
             "time": "23:00",
             "koma": "mo5",
             "url": "https://kamonohashiron.com/",
             "kw": ""
         },
         "鴨乃橋ロンの禁断推理 1st Season(KBS京都)": {
-            "aid": "234020t",
+            "aid": "234020kk",
             "time": "24:00",
             "koma": "mo7",
             "url": "https://kamonohashiron.com/",
             "kw": ""
         },
         "鴨乃橋ロンの禁断推理 1st Season(サンテレビ)": {
-            "aid": "234020t",
+            "aid": "234020st",
             "time": "24:00",
             "koma": "mo7",
             "url": "https://kamonohashiron.com/",
             "kw": ""
         },
         "鴨乃橋ロンの禁断推理 1st Season(BS11)": {
-            "aid": "234020t",
+            "aid": "234020b1",
             "time": "24:30",
             "koma": "mo8",
             "url": "https://kamonohashiron.com/",
             "kw": ""
         },
         "鴨乃橋ロンの禁断推理 1st Season(TVQ)": {
-            "aid": "234020t",
+            "aid": "234020tq",
             "time": "26:00",
             "koma": "mo11",
             "url": "https://kamonohashiron.com/",
             "kw": ""
         },
         "鴨乃橋ロンの禁断推理 1st Season(テレビ愛知)": {
-            "aid": "234020t",
+            "aid": "234020ti",
             "time": "26:35",
             "koma": "mo11",
             "url": "https://kamonohashiron.com/",
             "kw": ""
         },
         "鴨乃橋ロンの禁断推理 1st Season(静岡放送)": {
-            "aid": "234020t",
+            "aid": "234020sz",
             "time": "25:55",
             "koma": "we10",
             "url": "https://kamonohashiron.com/",
             "kw": ""
         },
         "鴨乃橋ロンの禁断推理 1st Season(配信)": {
-            "aid": "234020s",
+            "aid": "234020nh",
             "time": "22:30",
             "koma": "mo3",
             "url": "https://kamonohashiron.com/",
             "kw": ""
         },
         "聖剣学院の魔剣使い(テレビ東京)": {
-            "aid": "234021t",
+            "aid": "234021tu",
             "time": "25:30",
             "koma": "mo10",
             "url": "https://seikengakuin.com/",
             "kw": ""
         },
         "聖剣学院の魔剣使い(AT-X)": {
-            "aid": "234021x",
+            "aid": "234021at",
             "time": "21:30",
             "koma": "tu2",
             "url": "https://seikengakuin.com/",
             "kw": ""
         },
         "聖剣学院の魔剣使い(BSフジ)": {
-            "aid": "234021t",
+            "aid": "234021bf",
             "time": "24:30",
             "koma": "th8",
             "url": "https://seikengakuin.com/",
             "kw": ""
         },
         "聖剣学院の魔剣使い(Abema)": {
-            "aid": "234021a",
+            "aid": "234021ab",
             "time": "26:00",
             "koma": "th11",
             "url": "https://seikengakuin.com/",
             "kw": ""
         },
         "聖剣学院の魔剣使い(配信)": {
-            "aid": "234021s",
+            "aid": "234021nh",
             "time": "26:00",
             "koma": "th11",
             "url": "https://seikengakuin.com/",
             "kw": ""
         },
         "聖女の魔力は万能です Season2(AT-X)": {
-            "aid": "234022x",
+            "aid": "234022at",
             "time": "23:00",
             "koma": "tu5",
             "url": "https://seijyonomaryoku.jp/",
             "kw": ""
         },
         "聖女の魔力は万能です Season2(TOKYO MX)": {
-            "aid": "234022t",
+            "aid": "234022mx",
             "time": "24:30",
             "koma": "tu8",
             "url": "https://seijyonomaryoku.jp/",
             "kw": ""
         },
         "聖女の魔力は万能です Season2(BS11)": {
-            "aid": "234022t",
+            "aid": "234022b1",
             "time": "24:30",
             "koma": "tu8",
             "url": "https://seijyonomaryoku.jp/",
             "kw": ""
         },
         "聖女の魔力は万能です Season2(MBS)": {
-            "aid": "234022t",
+            "aid": "234022mb",
             "time": "27:00",
             "koma": "tu11",
             "url": "https://seijyonomaryoku.jp/",
             "kw": ""
         },
         "聖女の魔力は万能です Season2(Lemino)": {
-            "aid": "234022b",
+            "aid": "234022lm",
             "time": "24:00",
             "koma": "tu7",
             "url": "https://seijyonomaryoku.jp/",
             "kw": ""
         },
         "聖女の魔力は万能です Season2(配信)": {
-            "aid": "234022s",
+            "aid": "234022nh",
             "time": "24:00",
             "koma": "su7",
             "url": "https://seijyonomaryoku.jp/",
             "kw": ""
         },
         "Paradox Live THE ANIMATION(TOKYO MX)": {
-            "aid": "234023t",
+            "aid": "234023mx",
             "time": "23:00",
             "koma": "tu5",
             "url": "https://paradoxlive.jp/animation/",
             "kw": ""
         },
         "Paradox Live THE ANIMATION(BSフジ)": {
-            "aid": "234023t",
+            "aid": "234023bf",
             "time": "24:30",
             "koma": "tu8",
             "url": "https://paradoxlive.jp/animation/",
             "kw": ""
         },
         "Paradox Live THE ANIMATION(Animax)": {
-            "aid": "234023t",
+            "aid": "234023ax",
             "time": "22:00",
             "koma": "sa3",
             "url": "https://paradoxlive.jp/animation/",
             "kw": ""
         },
         "Paradox Live THE ANIMATION(Abema)": {
-            "aid": "234023a",
+            "aid": "234023ab",
             "time": "23:00",
             "koma": "tu5",
             "url": "https://paradoxlive.jp/animation/",
             "kw": ""
         },
         "Paradox Live THE ANIMATION(配信)": {
-            "aid": "234023s",
+            "aid": "234023nh",
             "time": "23:00",
             "koma": "we5",
             "url": "https://paradoxlive.jp/animation/",
             "kw": ""
         },
         "東京リベンジャーズ-天竺編-(テレビ東京)": {
-            "aid": "234024t",
+            "aid": "234024tu",
             "time": "24:00",
             "koma": "tu7",
             "url": "https://tokyo-revengers-anime.com/",
             "kw": ""
         },
         "東京リベンジャーズ-天竺編-(テレビ愛知)": {
-            "aid": "234024t",
+            "aid": "234024ti",
             "time": "24:00",
             "koma": "tu7",
             "url": "https://tokyo-revengers-anime.com/",
             "kw": ""
         },
         "東京リベンジャーズ-天竺編-(TVQ九州放送)": {
-            "aid": "234024t",
+            "aid": "234024ty",
             "time": "24:00",
             "koma": "tu7",
             "url": "https://tokyo-revengers-anime.com/",
             "kw": ""
         },
         "東京リベンジャーズ-天竺編-(TVhテレビ北海道)": {
-            "aid": "234024t",
+            "aid": "234024vh",
             "time": "24:00",
             "koma": "tu7",
             "url": "https://tokyo-revengers-anime.com/",
             "kw": ""
         },
         "東京リベンジャーズ-天竺編-(MBS)": {
-            "aid": "234024t",
+            "aid": "234024mb",
             "time": "26:30",
             "koma": "tu11",
             "url": "https://tokyo-revengers-anime.com/",
             "kw": ""
         },
         "東京リベンジャーズ-天竺編-(KRY山口放送)": {
-            "aid": "234024t",
+            "aid": "234024ky",
             "time": "26:54",
             "koma": "tu11",
             "url": "https://tokyo-revengers-anime.com/",
             "kw": ""
         },
         "東京リベンジャーズ-天竺編-(テレ玉)": {
-            "aid": "234024t",
+            "aid": "234024tm",
             "time": "24:00",
             "koma": "we7",
             "url": "https://tokyo-revengers-anime.com/",
             "kw": ""
         },
         "東京リベンジャーズ-天竺編-(チバテレビ)": {
-            "aid": "234024t",
+            "aid": "234024ct",
             "time": "25:00",
             "koma": "we9",
             "url": "https://tokyo-revengers-anime.com/",
             "kw": ""
         },
         "東京リベンジャーズ-天竺編-(TVer)": {
-            "aid": "234024b",
+            "aid": "234024tr",
             "time": "12:00",
             "koma": "tu11",
             "url": "https://tokyo-revengers-anime.com/",
             "kw": ""
         },
         "忍ばない！クリプトニンジャ咲耶(TOKYO MX)": {
-            "aid": "234025t",
+            "aid": "234025mx",
             "time": "25:00",
             "koma": "tu9",
             "url": "https://cryptoninja-sakuya.xyz/",
             "kw": ""
         },
         "忍ばない！クリプトニンジャ咲耶(配信)": {
-            "aid": "234025s",
+            "aid": "234025nh",
             "time": "-",
             "koma": "mo11",
             "url": "https://cryptoninja-sakuya.xyz/",
             "kw": ""
         },
         "ブルバスター(AT-X)": {
-            "aid": "234026x",
+            "aid": "234026at",
             "time": "21:00",
             "koma": "we1",
             "url": "https://bullbuster.jp/",
             "kw": ""
         },
         "ブルバスター(TOKYO MX)": {
-            "aid": "234026t",
+            "aid": "234026mx",
             "time": "23:00",
             "koma": "we5",
             "url": "https://bullbuster.jp/",
             "kw": ""
         },
         "ブルバスター(BS日テレ)": {
-            "aid": "234026t",
+            "aid": "234026bn",
             "time": "25:00",
             "koma": "we9",
             "url": "https://bullbuster.jp/",
             "kw": ""
         },
         "ブルバスター(関西テレビ)": {
-            "aid": "234026t",
+            "aid": "234026kt",
             "time": "26:55",
             "koma": "th11",
             "url": "https://bullbuster.jp/",
             "kw": ""
         },
         "ブルバスター(TVQ)": {
-            "aid": "234026t",
+            "aid": "234026tq",
             "time": "26:00",
             "koma": "th11",
             "url": "https://bullbuster.jp/",
             "kw": ""
         },
         "ブルバスター(Lemino)": {
-            "aid": "234026b",
+            "aid": "234026lm",
             "time": "22:00",
             "koma": "we3",
             "url": "https://bullbuster.jp/",
             "kw": ""
         },
         "婚約破棄された令嬢を拾った俺が、イケナイことを教え込む(TOKYO MX)": {
-            "aid": "234027t",
+            "aid": "234027mx",
             "time": "22:00",
             "koma": "we3",
             "url": "https://ikenaikyo.com/",
             "kw": ""
         },
         "婚約破棄された令嬢を拾った俺が、イケナイことを教え込む(BSフジ)": {
-            "aid": "234027t",
+            "aid": "234027bf",
             "time": "24:30",
             "koma": "we8",
             "url": "https://ikenaikyo.com/",
             "kw": ""
         },
         "婚約破棄された令嬢を拾った俺が、イケナイことを教え込む(AT-X)": {
-            "aid": "234027x",
+            "aid": "234027at",
             "time": "21:30",
             "koma": "th2",
             "url": "https://ikenaikyo.com/",
             "kw": ""
         },
         "婚約破棄された令嬢を拾った俺が、イケナイことを教え込む(Abema)": {
-            "aid": "234027a",
+            "aid": "234027ab",
             "time": "22:00",
             "koma": "we3",
             "url": "https://ikenaikyo.com/",
             "kw": ""
         },
         "陰の実力者になりたくて！ 2nd season(AT-X)": {
-            "aid": "234028x",
+            "aid": "234028at",
             "time": "22:30",
             "koma": "we4",
             "url": "https://shadow-garden.jp/",
             "kw": "陰実,かげじつ"
         },
         "陰の実力者になりたくて！ 2nd season(TOKYO MX)": {
-            "aid": "234028t",
+            "aid": "234028mx",
             "time": "23:30",
             "koma": "we6",
             "url": "https://shadow-garden.jp/",
             "kw": ""
         },
         "陰の実力者になりたくて！ 2nd season(テレビ愛知)": {
-            "aid": "234028t",
+            "aid": "234028ti",
             "time": "25:30",
             "koma": "we10",
             "url": "https://shadow-garden.jp/",
             "kw": ""
         },
         "陰の実力者になりたくて！ 2nd season(KBS京都)": {
-            "aid": "234028t",
+            "aid": "234028kk",
             "time": "25:00",
             "koma": "we9",
             "url": "https://shadow-garden.jp/",
             "kw": ""
         },
         "陰の実力者になりたくて！ 2nd season(サンテレビ)": {
-            "aid": "234028t",
+            "aid": "234028st",
             "time": "24:30",
             "koma": "we8",
             "url": "https://shadow-garden.jp/",
             "kw": ""
         },
         "陰の実力者になりたくて！ 2nd season(BS日テレ)": {
-            "aid": "234028t",
+            "aid": "234028bn",
             "time": "24:30",
             "koma": "we8",
             "url": "https://shadow-garden.jp/",
             "kw": ""
         },
         "陰の実力者になりたくて！ 2nd season(dアニメ)": {
-            "aid": "234028d",
+            "aid": "234028da",
             "time": "23:00",
             "koma": "we5",
             "url": "https://shadow-garden.jp/",
             "kw": ""
         },
         "陰の実力者になりたくて！ 2nd season(Abema)": {
-            "aid": "234028a",
+            "aid": "234028ab",
             "time": "23:00",
             "koma": "we5",
             "url": "https://shadow-garden.jp/",
             "kw": ""
         },
         "陰の実力者になりたくて！ 2nd season(配信)": {
-            "aid": "234028s",
+            "aid": "234028nh",
             "time": "23:00",
             "koma": "we5",
             "url": "https://shadow-garden.jp/",
             "kw": ""
         },
         "ウマ娘 プリティーダービー Season 3(TOKYO MX)": {
-            "aid": "234029t",
+            "aid": "234029mx",
             "time": "24:00",
             "koma": "we7",
             "url": "https://anime-umamusume.jp/",
             "kw": ""
         },
         "ウマ娘 プリティーダービー Season 3(BS11)": {
-            "aid": "234029t",
+            "aid": "234029b1",
             "time": "24:00",
             "koma": "we7",
             "url": "https://anime-umamusume.jp/",
             "kw": ""
         },
         "ウマ娘 プリティーダービー Season 3(関西テレビ)": {
-            "aid": "234029t",
+            "aid": "234029kt",
             "time": "25:45",
             "koma": "sa10",
             "url": "https://anime-umamusume.jp/",
             "kw": ""
         },
         "ウマ娘 プリティーダービー Season 3(AT-X)": {
-            "aid": "234029x",
+            "aid": "234029at",
             "time": "21:30",
             "koma": "su2",
             "url": "https://anime-umamusume.jp/",
             "kw": ""
         },
         "ウマ娘 プリティーダービー Season 3(サガテレビ)": {
-            "aid": "234029t",
+            "aid": "234029sg",
             "time": "24:55",
             "koma": "mo8",
             "url": "https://anime-umamusume.jp/",
             "kw": ""
         },
         "ウマ娘 プリティーダービー Season 3(Animax)": {
-            "aid": "234029t",
+            "aid": "234029ax",
             "time": "21:00",
             "koma": "sa1",
             "url": "https://anime-umamusume.jp/",
             "kw": ""
         },
         "ウマ娘 プリティーダービー Season 3(配信)": {
-            "aid": "234029s",
+            "aid": "234029nh",
             "time": "24:30",
             "koma": "we8",
             "url": "https://anime-umamusume.jp/",
             "kw": ""
         },
         "絆のアリル 2ndシーズン(テレビ東京)": {
-            "aid": "234030t",
+            "aid": "234030tu",
             "time": "24:00",
             "koma": "we7",
             "url": "https://kizunanoallele.com/",
             "kw": ""
         },
         "絆のアリル 2ndシーズン(テレビ大阪)": {
-            "aid": "234030t",
+            "aid": "234030tn",
             "time": "25:35",
             "koma": "we10",
             "url": "https://kizunanoallele.com/",
             "kw": ""
         },
         "絆のアリル 2ndシーズン(テレビ愛知)": {
-            "aid": "234030t",
+            "aid": "234030ti",
             "time": "26:05",
             "koma": "we11",
             "url": "https://kizunanoallele.com/",
             "kw": ""
         },
         "絆のアリル 2ndシーズン(Animax)": {
-            "aid": "234030t",
+            "aid": "234030ax",
             "time": "21:30",
             "koma": "sa2",
             "url": "https://kizunanoallele.com/",
             "kw": ""
         },
         "絆のアリル 2ndシーズン(配信)": {
-            "aid": "234030s",
+            "aid": "234030nh",
             "time": "-",
             "koma": "mo11",
             "url": "https://kizunanoallele.com/",
             "kw": ""
         },
         "16bitセンセーション ANOTHER LAYER(TOKYO MX)": {
-            "aid": "234031t",
+            "aid": "234031mx",
             "time": "24:30",
             "koma": "we8",
             "url": "https://16bitsensation-al.com/",
             "kw": ""
         },
         "16bitセンセーション ANOTHER LAYER(とちぎテレビ)": {
-            "aid": "234031t",
+            "aid": "234031cg",
             "time": "24:30",
             "koma": "we8",
             "url": "https://16bitsensation-al.com/",
             "kw": ""
         },
         "16bitセンセーション ANOTHER LAYER(群馬テレビ)": {
-            "aid": "234031t",
+            "aid": "234031gt",
             "time": "24:30",
             "koma": "we8",
             "url": "https://16bitsensation-al.com/",
             "kw": ""
         },
         "16bitセンセーション ANOTHER LAYER(BS11)": {
-            "aid": "234031t",
+            "aid": "234031b1",
             "time": "24:30",
             "koma": "we8",
             "url": "https://16bitsensation-al.com/",
             "kw": ""
         },
         "16bitセンセーション ANOTHER LAYER(中京テレビ)": {
-            "aid": "234031t",
+            "aid": "234031ck",
             "time": "25:37",
             "koma": "we10",
             "url": "https://16bitsensation-al.com/",
             "kw": ""
         },
         "16bitセンセーション ANOTHER LAYER(ABCテレビ)": {
-            "aid": "234031t",
+            "aid": "234031ac",
             "time": "26:14",
             "koma": "we11",
             "url": "https://16bitsensation-al.com/",
             "kw": ""
         },
         "16bitセンセーション ANOTHER LAYER(AT-X)": {
-            "aid": "234031x",
+            "aid": "234031at",
             "time": "21:30",
             "koma": "fr2",
             "url": "https://16bitsensation-al.com/",
             "kw": ""
         },
         "16bitセンセーション ANOTHER LAYER(dアニメ)": {
-            "aid": "234031d",
+            "aid": "234031da",
             "time": "25:00",
             "koma": "we9",
             "url": "https://16bitsensation-al.com/",
             "kw": ""
         },
         "16bitセンセーション ANOTHER LAYER(配信)": {
-            "aid": "234031s",
+            "aid": "234031nh",
             "time": "12:00",
             "koma": "su11",
             "url": "https://16bitsensation-al.com/",
             "kw": ""
         },
         "カミエラビ(フジテレビ)": {
-            "aid": "234032t",
+            "aid": "234032ft",
             "time": "24:55",
             "koma": "we8",
             "url": "https://kamierabi.com/",
             "kw": ""
         },
         "カミエラビ(テレビ西日本)": {
-            "aid": "234032t",
+            "aid": "234032tw",
             "time": "25:55",
             "koma": "we10",
             "url": "https://kamierabi.com/",
             "kw": ""
         },
         "カミエラビ(関西テレビ)": {
-            "aid": "234032t",
+            "aid": "234032kt",
             "time": "26:25",
             "koma": "th11",
             "url": "https://kamierabi.com/",
             "kw": ""
         },
         "カミエラビ(東海テレビ)": {
-            "aid": "234032t",
+            "aid": "234032ot",
             "time": "25:45",
             "koma": "sa10",
             "url": "https://kamierabi.com/",
             "kw": ""
         },
         "カミエラビ(北海道文化放送)": {
-            "aid": "234032x",
+            "aid": "234032ht",
             "time": "25:10",
             "koma": "su9",
             "url": "https://kamierabi.com/",
             "kw": ""
         },
         "カミエラビ(AT-X)": {
-            "aid": "234032x",
+            "aid": "234032at",
             "time": "23:00",
             "koma": "su5",
             "url": "https://kamierabi.com/",
             "kw": ""
         },
         "カミエラビ(BSフジ)": {
-            "aid": "234032t",
+            "aid": "234032bf",
             "time": "24:00",
             "koma": "we7",
             "url": "https://kamierabi.com/",
             "kw": ""
         },
         "カミエラビ(配信)": {
-            "aid": "234032s",
+            "aid": "234032nh",
             "time": "12:00",
             "koma": "tu11",
             "url": "https://kamierabi.com/",
             "kw": ""
         },
         "暴食のベルセルク(TOKYO MX)": {
-            "aid": "234033t",
+            "aid": "234033mx",
             "time": "25:30",
             "koma": "we10",
             "url": "https://bousyoku-anime.com/",
             "kw": ""
         },
         "暴食のベルセルク(サンテレビ)": {
-            "aid": "234033t",
+            "aid": "234033st",
             "time": "25:30",
             "koma": "we10",
             "url": "https://bousyoku-anime.com/",
             "kw": ""
         },
         "暴食のベルセルク(BS11)": {
-            "aid": "234033t",
+            "aid": "234033b1",
             "time": "25:30",
             "koma": "we10",
             "url": "https://bousyoku-anime.com/",
             "kw": ""
         },
         "暴食のベルセルク(U-NEXT)": {
-            "aid": "234033b",
+            "aid": "234033ux",
             "time": "24:00",
             "koma": "su7",
             "url": "https://bousyoku-anime.com/",
             "kw": ""
         },
         "魔法使いの嫁 SEASON2【第2クール】(TOKYO MX)": {
-            "aid": "234034t",
+            "aid": "234034mx",
             "time": "22:00",
             "koma": "th3",
             "url": "https://mahoyome.jp/",
             "kw": ""
         },
         "魔法使いの嫁 SEASON2【第2クール】(KBS京都)": {
-            "aid": "234034t",
+            "aid": "234034kk",
             "time": "24:00",
             "koma": "th7",
             "url": "https://mahoyome.jp/",
             "kw": ""
         },
         "魔法使いの嫁 SEASON2【第2クール】(サンテレビ)": {
-            "aid": "234034t",
+            "aid": "234034st",
             "time": "24:30",
             "koma": "th8",
             "url": "https://mahoyome.jp/",
             "kw": ""
         },
         "魔法使いの嫁 SEASON2【第2クール】(BS11)": {
-            "aid": "234034t",
+            "aid": "234034b1",
             "time": "23:00",
             "koma": "fr5",
             "url": "https://mahoyome.jp/",
             "kw": ""
         },
         "魔法使いの嫁 SEASON2【第2クール】(AT-X)": {
-            "aid": "234034t",
+            "aid": "234034at",
             "time": "23:00",
             "koma": "fr5",
             "url": "https://mahoyome.jp/",
             "kw": ""
         },
         "魔法使いの嫁 SEASON2【第2クール】(HBC北海道放送)": {
-            "aid": "234034t",
+            "aid": "234034hc",
             "time": "25:59",
             "koma": "mo10",
             "url": "https://mahoyome.jp/",
             "kw": ""
         },
         "魔法使いの嫁 SEASON2【第2クール】(岐阜放送)": {
-            "aid": "234034t",
+            "aid": "234034gf",
             "time": "24:30",
             "koma": "mo8",
             "url": "https://mahoyome.jp/",
             "kw": ""
         },
         "魔法使いの嫁 SEASON2【第2クール】(RSK山陽放送)": {
-            "aid": "234034t",
+            "aid": "234034ry",
             "time": "25:55",
             "koma": "mo10",
             "url": "https://mahoyome.jp/",
             "kw": ""
         },
         "魔法使いの嫁 SEASON2【第2クール】(Amazon)": {
-            "aid": "234034z",
+            "aid": "234034az",
             "time": "23:00",
             "koma": "th5",
             "url": "https://mahoyome.jp/",
             "kw": ""
         },
         "ビックリメン(TOKYO MX)": {
-            "aid": "234035t",
+            "aid": "234035mx",
             "time": "23:30",
             "koma": "th6",
             "url": "https://anime-bikkuri-men.jp/",
             "kw": ""
         },
         "ビックリメン(BS朝日)": {
-            "aid": "234035t",
+            "aid": "234035ba",
             "time": "23:00",
             "koma": "fr5",
             "url": "https://anime-bikkuri-men.jp/",
             "kw": ""
         },
         "ビックリメン(dアニメ)": {
-            "aid": "234035d",
+            "aid": "234035da",
             "time": "24:00",
             "koma": "fr7",
             "url": "https://anime-bikkuri-men.jp/",
             "kw": ""
         },
         "ビックリメン(配信)": {
-            "aid": "234035s",
+            "aid": "234035nh",
             "time": "24:00",
             "koma": "su7",
             "url": "https://anime-bikkuri-men.jp/",
             "kw": ""
         },
         "柚木さんちの四兄弟。(AT-X)": {
-            "aid": "234036x",
+            "aid": "234036at",
             "time": "23:30",
             "koma": "th6",
             "url": "https://yuzukisan-anime.com/",
             "kw": ""
         },
         "柚木さんちの四兄弟。(TOKYO MX)": {
-            "aid": "234036t",
+            "aid": "234036mx",
             "time": "24:00",
             "koma": "th7",
             "url": "https://yuzukisan-anime.com/",
             "kw": ""
         },
         "柚木さんちの四兄弟。(BS11)": {
-            "aid": "234036t",
+            "aid": "234036b1",
             "time": "24:00",
             "koma": "th7",
             "url": "https://yuzukisan-anime.com/",
             "kw": ""
         },
         "柚木さんちの四兄弟。(テレビ北海道)": {
-            "aid": "234036t",
+            "aid": "234036th",
             "time": "26:35",
             "koma": "tu11",
             "url": "https://yuzukisan-anime.com/",
             "kw": ""
         },
         "柚木さんちの四兄弟。(U-NEXT)": {
-            "aid": "234036b",
+            "aid": "234036ux",
             "time": "23:30",
             "koma": "th6",
             "url": "https://yuzukisan-anime.com/",
             "kw": ""
         },
         "柚木さんちの四兄弟。(配信)": {
-            "aid": "234036s",
+            "aid": "234036nh",
             "time": "24:00",
             "koma": "we7",
             "url": "https://yuzukisan-anime.com/",
             "kw": ""
         },
         "レヱル・ロマネスク2(TOKYO MX)": {
-            "aid": "234037t",
+            "aid": "234037mx",
             "time": "25:00",
             "koma": "th9",
             "url": "https://railromanesque.jp/anime02/",
             "kw": ""
         },
         "アンダーニンジャ(TBS)": {
-            "aid": "234038t",
+            "aid": "234038tb",
             "time": "25:33",
             "koma": "th10",
             "url": "https://under-ninja.jp/",
             "kw": ""
         },
         "アンダーニンジャ(BS11)": {
-            "aid": "234038t",
+            "aid": "234038b1",
             "time": "23:30",
             "koma": "fr6",
             "url": "https://under-ninja.jp/",
             "kw": ""
         },
         "アンダーニンジャ(テレビ北海道)": {
-            "aid": "234038t",
+            "aid": "234038th",
             "time": "25:53",
             "koma": "fr10",
             "url": "https://under-ninja.jp/",
             "kw": ""
         },
         "アンダーニンジャ(TBSチャンネル1)": {
-            "aid": "234038t",
+            "aid": "234038t1",
             "time": "25:30",
             "koma": "sa10",
             "url": "https://under-ninja.jp/",
             "kw": ""
         },
         "アンダーニンジャ(dアニメ)": {
-            "aid": "234038d",
+            "aid": "234038da",
             "time": "27:00",
             "koma": "fr11",
             "url": "https://under-ninja.jp/",
             "kw": ""
         },
         "アンダーニンジャ(配信)": {
-            "aid": "234038s",
+            "aid": "234038nh",
             "time": "27:00",
             "koma": "we11",
             "url": "https://under-ninja.jp/",
             "kw": ""
         },
         "BEYBLADE X【ベイブレードエックス】(テレビ東京系)": {
-            "aid": "234039t",
+            "aid": "234039tt",
             "time": "18:25",
             "koma": "fr11",
             "url": "https://beyblade.takaratomy.co.jp/anime/",
             "kw": ""
         },
         "BEYBLADE X【ベイブレードエックス】(配信)": {
-            "aid": "234039s",
+            "aid": "234039nh",
             "time": "19:00",
             "koma": "fr11",
             "url": "https://beyblade.takaratomy.co.jp/anime/",
             "kw": ""
         },
         "盾の勇者の成り上がり Season3(AT-X)": {
-            "aid": "234040x",
+            "aid": "234040at",
             "time": "21:00",
             "koma": "fr1",
             "url": "http://shieldhero-anime.jp/",
             "kw": ""
         },
         "盾の勇者の成り上がり Season3(TOKYO MX)": {
-            "aid": "234040t",
+            "aid": "234040mx",
             "time": "22:30",
             "koma": "fr4",
             "url": "http://shieldhero-anime.jp/",
             "kw": ""
         },
         "盾の勇者の成り上がり Season3(サンテレビ)": {
-            "aid": "234040t",
+            "aid": "234040st",
             "time": "24:00",
             "koma": "fr7",
             "url": "http://shieldhero-anime.jp/",
             "kw": ""
         },
         "盾の勇者の成り上がり Season3(テレビ愛知)": {
-            "aid": "234040t",
+            "aid": "234040ti",
             "time": "26:05",
             "koma": "fr11",
             "url": "http://shieldhero-anime.jp/",
             "kw": ""
         },
         "盾の勇者の成り上がり Season3(KBS京都)": {
-            "aid": "234040t",
+            "aid": "234040kk",
             "time": "23:30",
             "koma": "sa6",
             "url": "http://shieldhero-anime.jp/",
             "kw": ""
         },
         "盾の勇者の成り上がり Season3(BS日テレ)": {
-            "aid": "234040t",
+            "aid": "234040bn",
             "time": "26:30",
             "koma": "su11",
             "url": "http://shieldhero-anime.jp/",
             "kw": ""
         },
         "盾の勇者の成り上がり Season3(dアニメ)": {
-            "aid": "234040d",
+            "aid": "234040da",
             "time": "22:00",
             "koma": "fr3",
             "url": "http://shieldhero-anime.jp/",
             "kw": ""
         },
         "盾の勇者の成り上がり Season3(配信)": {
-            "aid": "234040s",
+            "aid": "234040nh",
             "time": "22:00",
             "koma": "we3",
             "url": "http://shieldhero-anime.jp/",
             "kw": ""
         },
         "ゴブリンスレイヤーⅡ(AT-X)": {
-            "aid": "234041x",
+            "aid": "234041at",
             "time": "22:00",
             "koma": "fr3",
             "url": "https://goblinslayer.jp/",
             "kw": ""
         },
         "ゴブリンスレイヤーⅡ(TOKYO MX)": {
-            "aid": "234041t",
+            "aid": "234041mx",
             "time": "25:05",
             "koma": "fr9",
             "url": "https://goblinslayer.jp/",
             "kw": ""
         },
         "ゴブリンスレイヤーⅡ(BS11)": {
-            "aid": "234041t",
+            "aid": "234041b1",
             "time": "25:30",
             "koma": "fr10",
             "url": "https://goblinslayer.jp/",
             "kw": ""
         },
         "ゴブリンスレイヤーⅡ(サンテレビ)": {
-            "aid": "234041t",
+            "aid": "234041st",
             "time": "25:00",
             "koma": "sa9",
             "url": "https://goblinslayer.jp/",
             "kw": ""
         },
         "ゴブリンスレイヤーⅡ(Abema)": {
-            "aid": "234041a",
+            "aid": "234041ab",
             "time": "22:30",
             "koma": "fr3",
             "url": "https://goblinslayer.jp/",
             "kw": ""
         },
         "経験済みなキミと、経験ゼロなオレが、お付き合いする話。(AT-X)": {
-            "aid": "234042x",
+            "aid": "234042at",
             "time": "22:30",
             "koma": "fr4",
             "url": "https://kimizero.com/",
             "kw": "キミゼロ"
         },
         "経験済みなキミと、経験ゼロなオレが、お付き合いする話。(TOKYO MX)": {
-            "aid": "234042t",
+            "aid": "234042mx",
             "time": "25:35",
             "koma": "fr10",
             "url": "https://kimizero.com/",
             "kw": "キミゼロ"
         },
         "経験済みなキミと、経験ゼロなオレが、お付き合いする話。(BS11)": {
-            "aid": "234042t",
+            "aid": "234042b1",
             "time": "27:00",
             "koma": "fr11",
             "url": "https://kimizero.com/",
             "kw": "キミゼロ"
         },
         "経験済みなキミと、経験ゼロなオレが、お付き合いする話。(サンテレビ)": {
-            "aid": "234042t",
+            "aid": "234042st",
             "time": "25:30",
             "koma": "sa10",
             "url": "https://kimizero.com/",
             "kw": "キミゼロ"
         },
         "経験済みなキミと、経験ゼロなオレが、お付き合いする話。(KBS京都)": {
-            "aid": "234042t",
+            "aid": "234042kk",
             "time": "25:30",
             "koma": "sa10",
             "url": "https://kimizero.com/",
             "kw": "キミゼロ"
         },
         "経験済みなキミと、経験ゼロなオレが、お付き合いする話。(dアニメ)": {
-            "aid": "234042d",
+            "aid": "234042da",
             "time": "23:00",
             "koma": "fr3",
             "url": "https://kimizero.com/",
             "kw": "キミゼロ"
         },
         "経験済みなキミと、経験ゼロなオレが、お付き合いする話。(配信)": {
-            "aid": "234042s",
+            "aid": "234042nh",
             "time": "23:00",
             "koma": "th3",
             "url": "https://kimizero.com/",
             "kw": "キミゼロ"
         },
         "攻略うぉんてっど！～異世界救います!?～(TOKYO MX)": {
-            "aid": "234043t",
+            "aid": "234043mx",
             "time": "23:00",
             "koma": "fr5",
             "url": "https://koryaku-wanted.jp/",
             "kw": ""
         },
         "攻略うぉんてっど！～異世界救います!?～(サンテレビ)": {
-            "aid": "234043t",
+            "aid": "234043st",
             "time": "24:30",
             "koma": "fr8",
             "url": "https://koryaku-wanted.jp/",
             "kw": ""
         },
         "攻略うぉんてっど！～異世界救います!?～(BS日テレ)": {
-            "aid": "234043t",
+            "aid": "234043bn",
             "time": "22:00",
             "koma": "sa3",
             "url": "https://koryaku-wanted.jp/",
             "kw": ""
         },
         "攻略うぉんてっど！～異世界救います!?～(KBS京都)": {
-            "aid": "234043t",
+            "aid": "234043kk",
             "time": "23:30",
             "koma": "su6",
             "url": "https://koryaku-wanted.jp/",
             "kw": ""
         },
         "攻略うぉんてっど！～異世界救います!?～(dアニメ)": {
-            "aid": "234043d",
+            "aid": "234043da",
             "time": "23:00",
             "koma": "fr5",
             "url": "https://koryaku-wanted.jp/",
             "kw": ""
         },
         "攻略うぉんてっど！～異世界救います!?～(配信)": {
-            "aid": "234043s",
+            "aid": "234043nh",
             "time": "23:00",
             "koma": "we5",
             "url": "https://koryaku-wanted.jp/",
             "kw": ""
         },
         "ヒプノシスマイク -Division Rap Battle- Rhyme Anima +(第2期)(TOKYO MX)": {
-            "aid": "234044t",
+            "aid": "234044mx",
             "time": "24:00",
             "koma": "fr7",
             "url": "https://hypnosismicarb.com/",
             "kw": ""
         },
         "ヒプノシスマイク -Division Rap Battle- Rhyme Anima +(第2期)(BS11)": {
-            "aid": "234044t",
+            "aid": "234044b1",
             "time": "24:00",
             "koma": "fr7",
             "url": "https://hypnosismicarb.com/",
             "kw": ""
         },
         "ヒプノシスマイク -Division Rap Battle- Rhyme Anima +(第2期)(群馬テレビ)": {
-            "aid": "234044t",
+            "aid": "234044gt",
             "time": "24:00",
             "koma": "fr7",
             "url": "https://hypnosismicarb.com/",
             "kw": ""
         },
         "ヒプノシスマイク -Division Rap Battle- Rhyme Anima +(第2期)(とちぎテレビ)": {
-            "aid": "234044t",
+            "aid": "234044cg",
             "time": "24:00",
             "koma": "fr7",
             "url": "https://hypnosismicarb.com/",
             "kw": ""
         },
         "ヒプノシスマイク -Division Rap Battle- Rhyme Anima +(第2期)(テレビ新潟)": {
-            "aid": "234044t",
+            "aid": "234044tg",
             "time": "26:05",
             "koma": "sa11",
             "url": "https://hypnosismicarb.com/",
             "kw": ""
         },
         "ヒプノシスマイク -Division Rap Battle- Rhyme Anima +(第2期)(MBS)": {
-            "aid": "234044t",
+            "aid": "234044mb",
             "time": "26:08",
             "koma": "sa11",
             "url": "https://hypnosismicarb.com/",
             "kw": ""
         },
         "ヒプノシスマイク -Division Rap Battle- Rhyme Anima +(第2期)(CBC)": {
-            "aid": "234044t",
+            "aid": "234044cc",
             "time": "26:39",
             "koma": "sa11",
             "url": "https://hypnosismicarb.com/",
             "kw": ""
         },
         "ヒプノシスマイク -Division Rap Battle- Rhyme Anima +(第2期)(FBS福岡放送)": {
-            "aid": "234044t",
+            "aid": "234044ff",
             "time": "25:50",
             "koma": "su10",
             "url": "https://hypnosismicarb.com/",
             "kw": ""
         },
         "アンデッドアンラック(TBS系)": {
-            "aid": "234045t",
+            "aid": "234045te",
             "time": "25:28",
             "koma": "fr10",
             "url": "https://undead-unluck.net/",
             "kw": ""
         },
         "アンデッドアンラック(配信)": {
-            "aid": "234045s",
+            "aid": "234045nh",
             "time": "26:00",
             "koma": "fr11",
             "url": "https://undead-unluck.net/",
             "kw": ""
         },
         "アークナイツ【冬隠帰路/PERISH IN FROST】(第2期)(テレビ東京)": {
-            "aid": "234046t",
+            "aid": "234046tu",
             "time": "25:23",
             "koma": "fr9",
             "url": "https://arknights-anime.jp/",
             "kw": ""
         },
         "アークナイツ【冬隠帰路/PERISH IN FROST】(第2期)(テレビ大阪)": {
-            "aid": "234046t",
+            "aid": "234046tn",
             "time": "26:10",
             "koma": "fr11",
             "url": "https://arknights-anime.jp/",
             "kw": ""
         },
         "アークナイツ【冬隠帰路/PERISH IN FROST】(第2期)(BS11)": {
-            "aid": "234046t",
+            "aid": "234046b1",
             "time": "23:30",
             "koma": "su6",
             "url": "https://arknights-anime.jp/",
             "kw": ""
         },
         "アークナイツ【冬隠帰路/PERISH IN FROST】(第2期)(Animax)": {
-            "aid": "234046t",
+            "aid": "234046ax",
             "time": "22:30",
             "koma": "sa4",
             "url": "https://arknights-anime.jp/",
             "kw": ""
         },
         "アークナイツ【冬隠帰路/PERISH IN FROST】(第2期)(配信)": {
-            "aid": "234046s",
+            "aid": "234046nh",
             "time": "10:00",
             "koma": "sa11",
             "url": "https://arknights-anime.jp/",
             "kw": ""
         },
         "はめつのおうこく(TBS)": {
-            "aid": "234047t",
+            "aid": "234047tb",
             "time": "25:58",
             "koma": "fr10",
             "url": "https://hametsu-anime.com/",
             "kw": ""
         },
         "はめつのおうこく(MBS)": {
-            "aid": "234047t",
+            "aid": "234047mb",
             "time": "25:58",
             "koma": "fr10",
             "url": "https://hametsu-anime.com/",
             "kw": ""
         },
         "はめつのおうこく(BS-TBS)": {
-            "aid": "234047t",
+            "aid": "234047bb",
             "time": "26:30",
             "koma": "fr11",
             "url": "https://hametsu-anime.com/",
             "kw": ""
         },
         "はめつのおうこく(AT-X)": {
-            "aid": "234047x",
+            "aid": "234047at",
             "time": "23:30",
             "koma": "sa6",
             "url": "https://hametsu-anime.com/",
             "kw": ""
         },
         "はめつのおうこく(dアニメ)": {
-            "aid": "234047d",
+            "aid": "234047da",
             "time": "26:30",
             "koma": "fr11",
             "url": "https://hametsu-anime.com/",
             "kw": ""
         },
         "はめつのおうこく(配信)": {
-            "aid": "234047s",
+            "aid": "234047nh",
             "time": "12:00",
             "koma": "tu11",
             "url": "https://hametsu-anime.com/",
             "kw": ""
         },
         "カノジョも彼女 Season 2(TBS)": {
-            "aid": "234048t",
+            "aid": "234048tb",
             "time": "26:28",
             "koma": "fr11",
             "url": "https://kanokano-anime.com/",
             "kw": ""
         },
         "カノジョも彼女 Season 2(MBS)": {
-            "aid": "234048t",
+            "aid": "234048mb",
             "time": "26:28",
             "koma": "fr11",
             "url": "https://kanokano-anime.com/",
             "kw": ""
         },
         "カノジョも彼女 Season 2(BS-TBS)": {
-            "aid": "234048t",
+            "aid": "234048bb",
             "time": "27:00",
             "koma": "fr11",
             "url": "https://kanokano-anime.com/",
             "kw": ""
         },
         "カノジョも彼女 Season 2(AT-X)": {
-            "aid": "234048x",
+            "aid": "234048at",
             "time": "22:30",
             "koma": "su4",
             "url": "https://kanokano-anime.com/",
             "kw": ""
         },
         "カノジョも彼女 Season 2(Abema)": {
-            "aid": "234048a",
+            "aid": "234048ab",
             "time": "26:53",
             "koma": "fr11",
             "url": "https://kanokano-anime.com/",
             "kw": ""
         },
         "カノジョも彼女 Season 2(dアニメ)": {
-            "aid": "234048d",
+            "aid": "234048da",
             "time": "26:23",
             "koma": "tu11",
             "url": "https://kanokano-anime.com/",
             "kw": ""
         },
         "カノジョも彼女 Season 2(配信)": {
-            "aid": "234048s",
+            "aid": "234048nh",
             "time": "-",
             "koma": "mo11",
             "url": "https://kanokano-anime.com/",
             "kw": ""
         },
         "まついぬ(テレビ東京系)": {
-            "aid": "234049t",
+            "aid": "234049tt",
             "time": "07:00",
             "koma": "sa11",
             "url": "https://matsuinu-anime.com/",
             "kw": ""
         },
         "まついぬ(AT-X)": {
-            "aid": "234049x",
+            "aid": "234049at",
             "time": "22:05",
             "koma": "th3",
             "url": "https://matsuinu-anime.com/",
             "kw": ""
         },
         "まついぬ(配信)": {
-            "aid": "234049s",
+            "aid": "234049nh",
             "time": "8:00",
             "koma": "fr11",
             "url": "https://matsuinu-anime.com/",
             "kw": ""
         },
         "全力ウサギ(テレ玉)": {
-            "aid": "234050t",
+            "aid": "234050tm",
             "time": "17:55",
             "koma": "sa11",
             "url": "https://zenryoku-usagi-anime.com/",
             "kw": ""
         },
         "全力ウサギ(テレビ神奈川)": {
-            "aid": "234050t",
+            "aid": "234050tk",
             "time": "06:55",
             "koma": "su11",
             "url": "https://zenryoku-usagi-anime.com/",
             "kw": ""
         },
         "全力ウサギ(チバテレビ)": {
-            "aid": "234050t",
+            "aid": "234050ct",
             "time": "15:55",
             "koma": "su11",
             "url": "https://zenryoku-usagi-anime.com/",
             "kw": ""
         },
         "全力ウサギ(dアニメ)": {
-            "aid": "234050d",
+            "aid": "234050da",
             "time": "7:00",
             "koma": "su11",
             "url": "https://zenryoku-usagi-anime.com/",
             "kw": ""
         },
         "キボウノチカラ～オトナプリキュア‘23～(NHK Eテレ)": {
-            "aid": "234051t",
+            "aid": "234051ne",
             "time": "18:25",
             "koma": "sa11",
             "url": "https://otonaprecure2023.com/",
             "kw": ""
         },
         "キボウノチカラ～オトナプリキュア‘23～(Amazon)": {
-            "aid": "234051z",
+            "aid": "234051az",
             "time": "12:00",
             "koma": "tu11",
             "url": "https://otonaprecure2023.com/",
             "kw": ""
         },
         "キボウノチカラ～オトナプリキュア‘23～(配信)": {
-            "aid": "234051s",
+            "aid": "234051nh",
             "time": "12:00",
             "koma": "fr11",
             "url": "https://otonaprecure2023.com/",
             "kw": ""
         },
         "最果てのパラディン -鉄錆の山の王-(第2期)(TOKYO MX)": {
-            "aid": "234052t",
+            "aid": "234052mx",
             "time": "22:00",
             "koma": "sa3",
             "url": "https://farawaypaladin.com/staff",
             "kw": ""
         },
         "最果てのパラディン -鉄錆の山の王-(第2期)(BS日テレ)": {
-            "aid": "234052t",
+            "aid": "234052bn",
             "time": "24:30",
             "koma": "sa8",
             "url": "https://farawaypaladin.com/staff",
             "kw": ""
         },
         "最果てのパラディン -鉄錆の山の王-(第2期)(AT-X)": {
-            "aid": "234052x",
+            "aid": "234052at",
             "time": "20:00",
             "koma": "we11",
             "url": "https://farawaypaladin.com/staff",
             "kw": ""
         },
         "最果てのパラディン -鉄錆の山の王-(第2期)(dアニメ)": {
-            "aid": "234052d",
+            "aid": "234052da",
             "time": "22:00",
             "koma": "sa3",
             "url": "https://farawaypaladin.com/staff",
             "kw": ""
         },
         "最果てのパラディン -鉄錆の山の王-(第2期)(配信)": {
-            "aid": "234052s",
+            "aid": "234052nh",
             "time": "18:00",
             "koma": "fr11",
             "url": "https://farawaypaladin.com/staff",
             "kw": ""
         },
         "ひきこまり吸血姫の悶々(TOKYO MX)": {
-            "aid": "234053t",
+            "aid": "234053mx",
             "time": "22:30",
             "koma": "sa4",
             "url": "https://hikikomari.com/",
             "kw": ""
         },
         "ひきこまり吸血姫の悶々(BS日テレ)": {
-            "aid": "234053t",
+            "aid": "234053bn",
             "time": "23:00",
             "koma": "sa5",
             "url": "https://hikikomari.com/",
             "kw": ""
         },
         "ひきこまり吸血姫の悶々(MBS)": {
-            "aid": "234053t",
+            "aid": "234053mb",
             "time": "27:30",
             "koma": "tu11",
             "url": "https://hikikomari.com/",
             "kw": ""
         },
         "ひきこまり吸血姫の悶々(AT-X)": {
-            "aid": "234053x",
+            "aid": "234053at",
             "time": "22:00",
             "koma": "we3",
             "url": "https://hikikomari.com/",
             "kw": ""
         },
         "ひきこまり吸血姫の悶々(Abema)": {
-            "aid": "234053a",
+            "aid": "234053ab",
             "time": "22:30",
             "koma": "sa4",
             "url": "https://hikikomari.com/",
             "kw": ""
         },
         "ひきこまり吸血姫の悶々(配信)": {
-            "aid": "234053s",
+            "aid": "234053nh",
             "time": "24:00",
             "koma": "tu7",
             "url": "https://hikikomari.com/",
             "kw": ""
         },
         "SPY×FAMILY Season2(テレビ東京系)": {
-            "aid": "234054t",
+            "aid": "234054tt",
             "time": "23:00",
             "koma": "sa5",
             "url": "https://spy-family.net/tvseries/",
             "kw": "スパイ,スパイファミリー"
         },
         "SPY×FAMILY Season2(BSテレ東)": {
-            "aid": "234054t",
+            "aid": "234054bt",
             "time": "23:30",
             "koma": "su6",
             "url": "https://spy-family.net/tvseries/",
             "kw": "スパイ,スパイファミリー"
         },
         "SPY×FAMILY Season2(大分朝日放送)": {
-            "aid": "234054t",
+            "aid": "234054aa",
             "time": "10:00",
             "koma": "su11",
             "url": "https://spy-family.net/tvseries/",
             "kw": "スパイ,スパイファミリー"
         },
         "SPY×FAMILY Season2(AT-X)": {
-            "aid": "234054x",
+            "aid": "234054at",
             "time": "22:00",
             "koma": "tu3",
             "url": "https://spy-family.net/tvseries/",
             "kw": "スパイ,スパイファミリー"
         },
         "SPY×FAMILY Season2(長崎放送)": {
-            "aid": "234054t",
+            "aid": "234054ng",
             "time": "24:26",
             "koma": "th7",
             "url": "https://spy-family.net/tvseries/",
             "kw": "スパイ,スパイファミリー"
         },
         "SPY×FAMILY Season2(琉球放送)": {
-            "aid": "234054t",
+            "aid": "234054ry",
             "time": "07:00",
             "koma": "sa11",
             "url": "https://spy-family.net/tvseries/",
             "kw": "スパイ,スパイファミリー"
         },
         "SPY×FAMILY Season2(テレビ静岡)": {
-            "aid": "234054t",
+            "aid": "234054tz",
             "time": "16:30",
             "koma": "sa11",
             "url": "https://spy-family.net/tvseries/",
             "kw": "スパイ,スパイファミリー"
         },
         "SPY×FAMILY Season2(奈良テレビ)": {
-            "aid": "234054t",
+            "aid": "234054nr",
             "time": "25:00",
             "koma": "mo9",
             "url": "https://spy-family.net/tvseries/",
             "kw": "スパイ,スパイファミリー"
         },
         "SPY×FAMILY Season2(配信)": {
-            "aid": "234054s",
+            "aid": "234054nh",
             "time": "23:30",
             "koma": "sa6",
             "url": "https://spy-family.net/tvseries/",
             "kw": "スパイ,スパイファミリー"
         },
         "新しい上司はど天然(TOKYO MX)": {
-            "aid": "234055t",
+            "aid": "234055mx",
             "time": "23:30",
             "koma": "sa6",
             "url": "https://do-tennen.com/",
             "kw": ""
         },
         "新しい上司はど天然(とちぎテレビ)": {
-            "aid": "234055t",
+            "aid": "234055cg",
             "time": "23:30",
             "koma": "sa6",
             "url": "https://do-tennen.com/",
             "kw": ""
         },
         "新しい上司はど天然(群馬テレビ)": {
-            "aid": "234055t",
+            "aid": "234055gt",
             "time": "23:30",
             "koma": "sa6",
             "url": "https://do-tennen.com/",
             "kw": ""
         },
         "新しい上司はど天然(BS11)": {
-            "aid": "234055t",
+            "aid": "234055b1",
             "time": "23:30",
             "koma": "sa6",
             "url": "https://do-tennen.com/",
             "kw": ""
         },
         "新しい上司はど天然(ABCテレビ)": {
-            "aid": "234055x",
+            "aid": "234055ac",
             "time": "26:30",
             "koma": "sa11",
             "url": "https://do-tennen.com/",
             "kw": ""
         },
         "新しい上司はど天然(AT-X)": {
-            "aid": "234055x",
+            "aid": "234055at",
             "time": "20:30",
             "koma": "we11",
             "url": "https://do-tennen.com/",
             "kw": ""
         },
         "新しい上司はど天然(配信)": {
-            "aid": "234055s",
+            "aid": "234055nh",
             "time": "24:00",
             "koma": "sa7",
             "url": "https://do-tennen.com/",
             "kw": ""
         },
         "オチビサン(NHK総合)": {
-            "aid": "234056t",
+            "aid": "234056nu",
             "time": "24:00",
             "koma": "sa7",
             "url": "https://www.nhk.jp/p/ts/91L7VN78GR/",
             "kw": ""
         },
         "帰還者の魔法は特別です(TOKYO MX)": {
-            "aid": "234057t",
+            "aid": "234057mx",
             "time": "24:00",
             "koma": "sa7",
             "url": "https://returners-magic.com/",
             "kw": ""
         },
         "帰還者の魔法は特別です(群馬テレビ)": {
-            "aid": "234057t",
+            "aid": "234057gt",
             "time": "24:00",
             "koma": "sa7",
             "url": "https://returners-magic.com/",
             "kw": ""
         },
         "帰還者の魔法は特別です(とちぎテレビ)": {
-            "aid": "234057t",
+            "aid": "234057cg",
             "time": "24:00",
             "koma": "sa7",
             "url": "https://returners-magic.com/",
             "kw": ""
         },
         "帰還者の魔法は特別です(BS11)": {
-            "aid": "234057t",
+            "aid": "234057b1",
             "time": "24:00",
             "koma": "sa7",
             "url": "https://returners-magic.com/",
             "kw": ""
         },
         "帰還者の魔法は特別です(MBS)": {
-            "aid": "234057t",
+            "aid": "234057mb",
             "time": "27:08",
             "koma": "sa11",
             "url": "https://returners-magic.com/",
             "kw": ""
         },
         "帰還者の魔法は特別です(中京テレビ)": {
-            "aid": "234057t",
+            "aid": "234057ck",
             "time": "25:55",
             "koma": "sa10",
             "url": "https://returners-magic.com/",
             "kw": ""
         },
         "帰還者の魔法は特別です(AT-X)": {
-            "aid": "234057x",
+            "aid": "234057at",
             "time": "20:00",
             "koma": "fr11",
             "url": "https://returners-magic.com/",
             "kw": ""
         },
         "帰還者の魔法は特別です(dアニメ)": {
-            "aid": "234057d",
+            "aid": "234057da",
             "time": "24:30",
             "koma": "sa8",
             "url": "https://returners-magic.com/",
             "kw": ""
         },
         "帰還者の魔法は特別です(配信)": {
-            "aid": "234057s",
+            "aid": "234057nh",
             "time": "12:00",
             "koma": "tu11",
             "url": "https://returners-magic.com/",
             "kw": ""
         },
         "豚のレバーは加熱しろ(TOKYO MX)": {
-            "aid": "234058t",
+            "aid": "234058mx",
             "time": "24:30",
             "koma": "sa8",
             "url": "https://butaliver-anime.com/",
             "kw": ""
         },
         "豚のレバーは加熱しろ(とちぎテレビ)": {
-            "aid": "234058t",
+            "aid": "234058cg",
             "time": "24:30",
             "koma": "sa8",
             "url": "https://butaliver-anime.com/",
             "kw": ""
         },
         "豚のレバーは加熱しろ(群馬テレビ)": {
-            "aid": "234058t",
+            "aid": "234058gt",
             "time": "24:30",
             "koma": "sa8",
             "url": "https://butaliver-anime.com/",
             "kw": ""
         },
         "豚のレバーは加熱しろ(BS11)": {
-            "aid": "234058t",
+            "aid": "234058b1",
             "time": "24:30",
             "koma": "sa8",
             "url": "https://butaliver-anime.com/",
             "kw": ""
         },
         "豚のレバーは加熱しろ(読売テレビ)": {
-            "aid": "234058x",
+            "aid": "234058yt",
             "time": "26:59",
             "koma": "mo11",
             "url": "https://butaliver-anime.com/",
             "kw": ""
         },
         "豚のレバーは加熱しろ(AT-X)": {
-            "aid": "234058x",
+            "aid": "234058at",
             "time": "21:00",
             "koma": "sa1",
             "url": "https://butaliver-anime.com/",
             "kw": ""
         },
         "豚のレバーは加熱しろ(CBCテレビ)": {
-            "aid": "234058t",
+            "aid": "234058cb",
             "time": "26:07",
             "koma": "tu11",
             "url": "https://butaliver-anime.com/",
             "kw": ""
         },
         "豚のレバーは加熱しろ(dアニメ)": {
-            "aid": "234058d",
+            "aid": "234058da",
             "time": "24:30",
             "koma": "sa8",
             "url": "https://butaliver-anime.com/",
             "kw": ""
         },
         "豚のレバーは加熱しろ(Abema)": {
-            "aid": "234058a",
+            "aid": "234058ab",
             "time": "24:30",
             "koma": "sa8",
             "url": "https://butaliver-anime.com/",
             "kw": ""
         },
         "豚のレバーは加熱しろ(配信)": {
-            "aid": "234058s",
+            "aid": "234058nh",
             "time": "24:30",
             "koma": "th8",
             "url": "https://butaliver-anime.com/",
             "kw": ""
         },
         "ティアムーン帝国物語(TOKYO MX)": {
-            "aid": "234059t",
+            "aid": "234059mx",
             "time": "25:00",
             "koma": "sa9",
             "url": "https://tearmoon-pr.com/",
             "kw": ""
         },
         "ティアムーン帝国物語(BS11)": {
-            "aid": "234059t",
+            "aid": "234059b1",
             "time": "25:00",
             "koma": "sa9",
             "url": "https://tearmoon-pr.com/",
             "kw": ""
         },
         "ティアムーン帝国物語(MBS)": {
-            "aid": "234059t",
+            "aid": "234059mb",
             "time": "26:38",
             "koma": "sa11",
             "url": "https://tearmoon-pr.com/",
             "kw": ""
         },
         "ティアムーン帝国物語(dアニメ)": {
-            "aid": "234059d",
+            "aid": "234059da",
             "time": "25:00",
             "koma": "sa9",
             "url": "https://tearmoon-pr.com/",
             "kw": ""
         },
         "ティアムーン帝国物語(配信)": {
-            "aid": "234059s",
+            "aid": "234059nh",
             "time": "24:00",
             "koma": "sa7",
             "url": "https://tearmoon-pr.com/",
             "kw": ""
         },
         "僕らの雨いろプロトコル(テレビ朝日系)": {
-            "aid": "234060t",
+            "aid": "234060ta",
             "time": "25:30",
             "koma": "sa10",
             "url": "https://bokuame.com/",
             "kw": "ぼくあめ"
         },
         "僕らの雨いろプロトコル(BS朝日)": {
-            "aid": "234060t",
+            "aid": "234060ba",
             "time": "25:00",
             "koma": "sa9",
             "url": "https://bokuame.com/",
             "kw": "ぼくあめ"
         },
         "僕らの雨いろプロトコル(MRT宮崎放送)": {
-            "aid": "234060t",
+            "aid": "234060mm",
             "time": "25:28",
             "koma": "sa9",
             "url": "https://bokuame.com/",
             "kw": "ぼくあめ"
         },
         "僕らの雨いろプロトコル(Abema)": {
-            "aid": "234060a",
+            "aid": "234060ab",
             "time": "25:30",
             "koma": "sa10",
             "url": "https://bokuame.com/",
             "kw": "ぼくあめ"
         },
         "僕らの雨いろプロトコル(dアニメ)": {
-            "aid": "234060d",
+            "aid": "234060da",
             "time": "25:30",
             "koma": "sa10",
             "url": "https://bokuame.com/",
             "kw": "ぼくあめ"
         },
         "僕らの雨いろプロトコル(配信)": {
-            "aid": "234060s",
+            "aid": "234060nh",
             "time": "25:30",
             "koma": "tu10",
             "url": "https://bokuame.com/",
             "kw": "ぼくあめ"
         },
         "ポーション頼みで生き延びます！(テレビ朝日系)": {
-            "aid": "234061t",
+            "aid": "234061ta",
             "time": "26:00",
             "koma": "sa11",
             "url": "https://potion-anime.com/",
             "kw": ""
         },
         "ポーション頼みで生き延びます！(AT-X)": {
-            "aid": "234061x",
+            "aid": "234061at",
             "time": "20:00",
             "koma": "mo11",
             "url": "https://potion-anime.com/",
             "kw": ""
         },
         "ポーション頼みで生き延びます！(BSフジ)": {
-            "aid": "234061t",
+            "aid": "234061bf",
             "time": "24:30",
             "koma": "fr8",
             "url": "https://potion-anime.com/",
             "kw": ""
         },
         "ポーション頼みで生き延びます！(Abema)": {
-            "aid": "234061a",
+            "aid": "234061ab",
             "time": "26:00",
             "koma": "sa11",
             "url": "https://potion-anime.com/",
             "kw": ""
         },
         "ポーション頼みで生き延びます！(配信)": {
-            "aid": "234061s",
+            "aid": "234061nh",
             "time": "24:00",
             "koma": "tu7",
             "url": "https://potion-anime.com/",
             "kw": ""
         },
         "アイドルマスター ミリオンライブ！(テレビ東京系)": {
-            "aid": "234062t",
+            "aid": "234062tt",
             "time": "10:00",
             "koma": "su11",
             "url": "https://millionlive-anime.idolmaster-official.jp/",
             "kw": "アイマス,ミリマス"
         },
         "アイドルマスター ミリオンライブ！(テレビ東京)": {
-            "aid": "234062t",
+            "aid": "234062tu",
             "time": "25:35",
             "koma": "su10",
             "url": "https://millionlive-anime.idolmaster-official.jp/",
             "kw": "アイマス,ミリマス"
         },
         "アイドルマスター ミリオンライブ！(BS11)": {
-            "aid": "234062t",
+            "aid": "234062b1",
             "time": "23:30",
             "koma": "mo6",
             "url": "https://millionlive-anime.idolmaster-official.jp/",
             "kw": "アイマス,ミリマス"
         },
         "アイドルマスター ミリオンライブ！(BS日テレ)": {
-            "aid": "234062t",
+            "aid": "234062bn",
             "time": "24:30",
             "koma": "th8",
             "url": "https://millionlive-anime.idolmaster-official.jp/",
             "kw": "アイマス,ミリマス"
         },
         "アイドルマスター ミリオンライブ！(AT-X)": {
-            "aid": "234062x",
+            "aid": "234062at",
             "time": "20:30",
             "koma": "fr11",
             "url": "https://millionlive-anime.idolmaster-official.jp/",
             "kw": "アイマス,ミリマス"
         },
         "アイドルマスター ミリオンライブ！(配信)": {
-            "aid": "234062s",
+            "aid": "234062nh",
             "time": "24:00",
             "koma": "th7",
             "url": "https://millionlive-anime.idolmaster-official.jp/",
             "kw": "アイマス,ミリマス"
         },
         "七つの大罪 黙示録の四騎士(TBS系)": {
-            "aid": "234063t",
+            "aid": "234063te",
             "time": "16:30",
             "koma": "su11",
             "url": "https://7sins-4knights.net/",
             "kw": ""
         },
         "七つの大罪 黙示録の四騎士(Netflix)": {
-            "aid": "234063b",
+            "aid": "234063nx",
             "time": "17:10",
             "koma": "su11",
             "url": "https://7sins-4knights.net/",
             "kw": ""
         },
         "七つの大罪 黙示録の四騎士(配信)": {
-            "aid": "234063s",
+            "aid": "234063nh",
             "time": "17:10",
             "koma": "su11",
             "url": "https://7sins-4knights.net/",
             "kw": ""
         },
         "君のことが大大大大大好きな100人の彼女(TOKYO MX)": {
-            "aid": "234064t",
+            "aid": "234064mx",
             "time": "22:30",
             "koma": "su4",
             "url": "https://hyakkano.com/",
             "kw": "100カノ,ひゃくかの"
         },
         "君のことが大大大大大好きな100人の彼女(サンテレビ)": {
-            "aid": "234064t",
+            "aid": "234064st",
             "time": "24:30",
             "koma": "su8",
             "url": "https://hyakkano.com/",
             "kw": "100カノ,ひゃくかの"
         },
         "君のことが大大大大大好きな100人の彼女(KBS京都)": {
-            "aid": "234064t",
+            "aid": "234064kk",
             "time": "24:45",
             "koma": "su8",
             "url": "https://hyakkano.com/",
             "kw": "100カノ,ひゃくかの"
         },
         "君のことが大大大大大好きな100人の彼女(とちぎテレビ)": {
-            "aid": "234064t",
+            "aid": "234064cg",
             "time": "23:00",
             "koma": "fr5",
             "url": "https://hyakkano.com/",
             "kw": "100カノ,ひゃくかの"
         },
         "君のことが大大大大大好きな100人の彼女(BS11)": {
-            "aid": "234064x",
+            "aid": "234064b1",
             "time": "24:30",
             "koma": "su8",
             "url": "https://hyakkano.com/",
             "kw": "100カノ,ひゃくかの"
         },
         "君のことが大大大大大好きな100人の彼女(AT-X)": {
-            "aid": "234064x",
+            "aid": "234064at",
             "time": "21:00",
             "koma": "sa1",
             "url": "https://hyakkano.com/",
             "kw": "100カノ,ひゃくかの"
         },
         "君のことが大大大大大好きな100人の彼女(Abema)": {
-            "aid": "234064a",
+            "aid": "234064ab",
             "time": "23:00",
             "koma": "su5",
             "url": "https://hyakkano.com/",
             "kw": "100カノ,ひゃくかの"
         },
         "君のことが大大大大大好きな100人の彼女(dアニメ)": {
-            "aid": "234064d",
+            "aid": "234064da",
             "time": "23:00",
             "koma": "su5",
             "url": "https://hyakkano.com/",
             "kw": "100カノ,ひゃくかの"
         },
         "君のことが大大大大大好きな100人の彼女(配信)": {
-            "aid": "234064s",
+            "aid": "234064nh",
             "time": "23:00",
             "koma": "we5",
             "url": "https://hyakkano.com/",
             "kw": "100カノ,ひゃくかの"
         },
         "星屑テレパス(AT-X)": {
-            "aid": "234065x",
+            "aid": "234065at",
             "time": "21:00",
             "koma": "mo1",
             "url": "https://hoshitele-anime.com/",
             "kw": ""
         },
         "星屑テレパス(TOKYO MX)": {
-            "aid": "234065t",
+            "aid": "234065mx",
             "time": "22:00",
             "koma": "mo3",
             "url": "https://hoshitele-anime.com/",
             "kw": ""
         },
         "星屑テレパス(サンテレビ)": {
-            "aid": "234065t",
+            "aid": "234065st",
             "time": "23:30",
             "koma": "mo6",
             "url": "https://hoshitele-anime.com/",
             "kw": ""
         },
         "星屑テレパス(BS日テレ)": {
-            "aid": "234065t",
+            "aid": "234065bn",
             "time": "24:00",
             "koma": "mo7",
             "url": "https://hoshitele-anime.com/",
             "kw": ""
         },
         "星屑テレパス(静岡放送)": {
-            "aid": "234065t",
+            "aid": "234065sz",
             "time": "26:58",
             "koma": "sa11",
             "url": "https://hoshitele-anime.com/",
             "kw": ""
         },
         "星屑テレパス(FOD)": {
-            "aid": "234065f",
+            "aid": "234065fo",
             "time": "21:30",
             "koma": "mo2",
             "url": "https://hoshitele-anime.com/",
             "kw": ""
         },
         "星屑テレパス(TVer)": {
-            "aid": "234065f",
+            "aid": "234065tr",
             "time": "21:30",
             "koma": "mo2",
             "url": "https://hoshitele-anime.com/",
             "kw": ""
         },
         "川越ボーイズ・シング(TOKYO MX)": {
-            "aid": "234066t",
+            "aid": "234066mx",
             "time": "23:00",
             "koma": "mo5",
             "url": "https://boys-sing.com/",
             "kw": ""
         },
         "川越ボーイズ・シング(BS11)": {
-            "aid": "234066t",
+            "aid": "234066b1",
             "time": "23:00",
             "koma": "mo5",
             "url": "https://boys-sing.com/",
             "kw": ""
         },
         "川越ボーイズ・シング(テレ玉)": {
-            "aid": "234066t",
+            "aid": "234066tm",
             "time": "21:00",
             "koma": "tu1",
             "url": "https://boys-sing.com/",
             "kw": ""
         },
         "川越ボーイズ・シング(配信)": {
-            "aid": "234066s",
+            "aid": "234066nh",
             "time": "23:30",
             "koma": "mo6",
             "url": "https://boys-sing.com/",
             "kw": ""
         },
         "デッドマウント・デスプレイ (第2クール)(TOKYO MX)": {
-            "aid": "234067t",
+            "aid": "234067mx",
             "time": "24:00",
             "koma": "mo7",
             "url": "https://dmdp-anime.jp/",
             "kw": ""
         },
         "デッドマウント・デスプレイ (第2クール)(BS11)": {
-            "aid": "234067t",
+            "aid": "234067b1",
             "time": "24:00",
             "koma": "mo7",
             "url": "https://dmdp-anime.jp/",
             "kw": ""
         },
         "デッドマウント・デスプレイ (第2クール)(サンテレビ)": {
-            "aid": "234067t",
+            "aid": "234067st",
             "time": "24:30",
             "koma": "mo8",
             "url": "https://dmdp-anime.jp/",
             "kw": ""
         },
         "デッドマウント・デスプレイ (第2クール)(AT-X)": {
-            "aid": "234067x",
+            "aid": "234067at",
             "time": "22:30",
             "koma": "tu4",
             "url": "https://dmdp-anime.jp/",
             "kw": ""
         },
         "デッドマウント・デスプレイ (第2クール)(KBS京都)": {
-            "aid": "234067t",
+            "aid": "234067kk",
             "time": "25:00",
             "koma": "tu9",
             "url": "https://dmdp-anime.jp/",
             "kw": ""
         },
         "デッドマウント・デスプレイ (第2クール)(北海道テレビ)": {
-            "aid": "234067t",
+            "aid": "234067hv",
             "time": "25:45",
             "koma": "su10",
             "url": "https://dmdp-anime.jp/",
             "kw": ""
         },
         "デッドマウント・デスプレイ (第2クール)(dアニメ)": {
-            "aid": "234067d",
+            "aid": "234067da",
             "time": "24:00",
             "koma": "mo7",
             "url": "https://dmdp-anime.jp/",
             "kw": ""
         },
         "デッドマウント・デスプレイ (第2クール)(配信)": {
-            "aid": "234067s",
+            "aid": "234067nh",
             "time": "24:00",
             "koma": "mo7",
             "url": "https://dmdp-anime.jp/",
             "kw": ""
         },
         "Dr.STONE -NEW WORLD-(第3期)【第2クール】(TOKYO MX)": {
-            "aid": "234068t",
+            "aid": "234068mx",
             "time": "22:30",
             "koma": "th4",
             "url": "https://dr-stone.jp/",
             "kw": ""
         },
         "Dr.STONE -NEW WORLD-(第3期)【第2クール】(KBS京都)": {
-            "aid": "234068t",
+            "aid": "234068kk",
             "time": "22:30",
             "koma": "th4",
             "url": "https://dr-stone.jp/",
             "kw": ""
         },
         "Dr.STONE -NEW WORLD-(第3期)【第2クール】(BS11)": {
-            "aid": "234068t",
+            "aid": "234068b1",
             "time": "23:30",
             "koma": "th6",
             "url": "https://dr-stone.jp/",
             "kw": ""
         },
         "Dr.STONE -NEW WORLD-(第3期)【第2クール】(サンテレビ)": {
-            "aid": "234068t",
+            "aid": "234068st",
             "time": "25:00",
             "koma": "th9",
             "url": "https://dr-stone.jp/",
             "kw": ""
         },
         "Dr.STONE -NEW WORLD-(第3期)【第2クール】(テレビ愛知)": {
-            "aid": "234068t",
+            "aid": "234068ti",
             "time": "25:30",
             "koma": "th10",
             "url": "https://dr-stone.jp/",
             "kw": ""
         },
         "Dr.STONE -NEW WORLD-(第3期)【第2クール】(配信)": {
-            "aid": "234068s",
+            "aid": "234068nh",
             "time": "23:00",
             "koma": "th6",
             "url": "https://dr-stone.jp/",
             "kw": ""
         },
         "放課後少年花子くん(TBS)": {
-            "aid": "234069t",
+            "aid": "234069tb",
             "time": "25:58",
             "koma": "th10",
             "url": "https://www.tbs.co.jp/anime/hanakokun/",
             "kw": ""
         },
         "放課後少年花子くん(配信)": {
-            "aid": "234069s",
+            "aid": "234069nh",
             "time": "12:00",
             "koma": "fr11",
             "url": "https://www.tbs.co.jp/anime/hanakokun/",
             "kw": ""
         },
         "天官賜福 貮(第2期)【日本語字幕版】(WOWOW)": {
-            "aid": "234070t",
+            "aid": "234070ww",
             "time": "24:30",
             "koma": "we8",
             "url": "https://tgcf-anime.com/",
             "kw": ""
         },
         "終末のワルキューレⅡ 後編(第11～15話)(TOKYO MX)": {
-            "aid": "234071t",
+            "aid": "234071mx",
             "time": "24:30",
             "koma": "fr8",
             "url": "https://ragnarok-official.com/onair/",
             "kw": ""
         },
         "終末のワルキューレⅡ 後編(第11～15話)(MBS)": {
-            "aid": "234071t",
+            "aid": "234071mb",
             "time": "27:08",
             "koma": "fr11",
             "url": "https://ragnarok-official.com/onair/",
             "kw": ""
         },
         "終末のワルキューレⅡ 後編(第11～15話)(BS11)": {
-            "aid": "234071t",
+            "aid": "234071b1",
             "time": "24:30",
             "koma": "fr8",
             "url": "https://ragnarok-official.com/onair/",
             "kw": ""
         },
         "薬屋のひとりごと(日本テレビ系)": {
-            "aid": "234072t",
+            "aid": "234072nt",
             "time": "25:05",
             "koma": "sa9",
             "url": "https://kusuriyanohitorigoto.jp/",
             "kw": ""
         },
         "薬屋のひとりごと(配信)": {
-            "aid": "234072s",
+            "aid": "234072nh",
             "time": "26:40",
             "koma": "sa11",
             "url": "https://kusuriyanohitorigoto.jp/",
             "kw": ""
         },
         "ドッグシグナル(NHK Eテレ)": {
-            "aid": "234073t",
+            "aid": "234073ne",
             "time": "17:00",
             "koma": "su11",
             "url": "https://www.nhk.jp/p/ts/L5K8YJ2GK2/",
