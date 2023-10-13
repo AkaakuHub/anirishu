@@ -27,7 +27,9 @@ const Page = ({ aid }: Props) => {
     const router = useRouter();
     // リダイレクト
     useEffect(() => {
-        router.push(`/?aid=${aid}`);
+        router.push(`/?aid=${aid}`).then(() => {
+            window.location.reload();
+        });
     }, []);
     const baseUrl = process.env.NEXT_PUBLIC_BASE_URL ?? "";
     return (
@@ -36,8 +38,8 @@ const Page = ({ aid }: Props) => {
                 <title>あにりしゅ！</title>
                 <meta charSet="utf-8" />
                 <meta name="description" content="アニメの履修登録を行うことができるサイトです。" />
-                <meta name="keywords" content="アニメ,あにめ,anime,ANIME,履修登録,course registration"/>
-                <meta property="og:type" content="website"/>
+                <meta name="keywords" content="アニメ,あにめ,anime,ANIME,履修登録,course registration" />
+                <meta property="og:type" content="website" />
                 <meta property="og:url" content={`${baseUrl}`} />
                 <meta property="og:site_name" content="あにりしゅ！" />
                 <meta property="og:locate" content="ja_JP" />

@@ -3,7 +3,7 @@ import * as fs from 'fs';
 import { loadGoogleFont } from '@/lib/font';
 import Anime_title_obj from '../../../public/data/anime_title_obj.json';
 
-const anime_title_obj = Anime_title_obj;
+const anime_title_obj: { [key: string]: any } = Anime_title_obj;
 
 export const config = {
   runtime: "edge",
@@ -48,13 +48,13 @@ export default async function handler(req: NextRequest) {
         let anime_title = [];
         for (let i = 0; i < data.length; i++) {
           let aid = nendo + season_num + data[i];
-          let key = Object.keys(shared_this_anime_title).find(key => shared_this_anime_title[key]["aid"] === aid);
+          let key: string = Object.keys(shared_this_anime_title).find(key => shared_this_anime_title[key]["aid"] === aid) || "";
           let koma = shared_this_anime_title[key]["koma"];
           anime_title.push(key);
         }
         if (anime_title.length > 11) {//12以上だとetcを表示
           anime_title = anime_title.slice(0, 11);
-          anime_title.push("etc...(完全版はWebで確認!)");
+          anime_title.push("etc...(完全版はWebで確認！！)");
         }
         return new ImageResponse(
           (
