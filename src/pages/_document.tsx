@@ -11,6 +11,7 @@ export default function Document() {
         <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#9bbeff" />
         <meta name="msapplication-TileColor" content="#2b5797" />
         <meta name="theme-color" content="#9bbeff" />
+        <meta name="google-site-verification" content="RFbnQYDWuIYjQriQXZa7kxSYi3vEAoLHDt7bPtGi_Ps" />
       </Head>
       <body>
         <Main />
