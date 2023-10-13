@@ -19,18 +19,6 @@ var toggle_mode = "add";
 var nendo = getCurrentJapanTime().getFullYear().toString().slice(-2);
 var season = getSeasonByMonth();
 
-// クエリを受け取るためのイベントハンドラを追加
-window.addEventListener('message', function (event) {
-    // event.dataに送られてきたデータが含まれています
-    let urlParams = event.data;
-    /* aidをクエリからとる */
-    let startIndex = urlParams.indexOf("aid=");
-    if (startIndex != -1) {
-        let aidValue = urlParams.slice(startIndex + 4);
-        createSharedTable(aidValue);
-    }
-});
-
 
 /* ページが読み込まれたとき */
 document.addEventListener("DOMContentLoaded", function () {
@@ -138,6 +126,18 @@ function buildHTML(anime_title_obj) {
     temp_txt += `<div>${icon_fo}:FOD</div>`;
     temp_txt += `<div>${icon_nh}:その他配信</div>`;
     hanrei.innerHTML += temp_txt;
+
+    // クエリを受け取るためのイベントハンドラを追加
+    window.addEventListener('message', function (event) {
+        // event.dataに送られてきたデータが含まれています
+        let urlParams = event.data;
+        /* aidをクエリからとる */
+        let startIndex = urlParams.indexOf("aid=");
+        if (startIndex != -1) {
+            let aidValue = urlParams.slice(startIndex + 4);
+            createSharedTable(aidValue);
+        }
+    });
 
     /* 最後に、loadingを消す */
     let loading = document.getElementById("loading");

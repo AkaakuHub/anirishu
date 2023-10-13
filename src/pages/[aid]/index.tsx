@@ -28,7 +28,10 @@ const Page = ({ aid }: Props) => {
     // リダイレクト
     useEffect(() => {
         router.push(`/?aid=${aid}`).then(() => {
-            window.location.reload();
+            // リダイレクトが完了したら0.1秒待ってからリロード
+            setTimeout(() => {
+                window.location.reload();
+            }, 100);
         });
     }, []);
     const baseUrl = process.env.NEXT_PUBLIC_BASE_URL ?? "";
