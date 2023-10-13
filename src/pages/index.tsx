@@ -32,8 +32,8 @@ const Home = () => {
                 <iframe id="iframe_main" src="/html/index.html"></iframe>
             </div>
             <Script type="text/javascript">
-                let iframe = document.getElementById("iframe_main");
-                iframe.contentWindow.postMessage(window.location.search, '*');
+                let iframe = document.getElementById(&quot;iframe_main&quot;);
+                iframe.contentWindow.postMessage(window.location.search, &apos;*&apos;);
             </Script>
         </div>
     );
