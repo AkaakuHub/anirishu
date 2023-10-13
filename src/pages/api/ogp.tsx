@@ -48,8 +48,7 @@ export default async function handler(req: NextRequest) {
         let anime_title = [];
         for (let i = 0; i < data.length; i++) {
           let aid = nendo + season_num + data[i];
-          let key: string = Object.keys(shared_this_anime_title).find(key => shared_this_anime_title[key]["aid"] === aid) || "";
-          let koma = shared_this_anime_title[key]["koma"];
+          let key: string = Object.keys(shared_this_anime_title).find(key => shared_this_anime_title[key] && shared_this_anime_title[key]["aid"] === aid) || "";
           anime_title.push(key);
         }
         if (anime_title.length > 11) {//12以上だとetcを表示

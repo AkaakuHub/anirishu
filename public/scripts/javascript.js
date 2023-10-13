@@ -343,7 +343,7 @@ function createSharedTable(aidValue) {
     let shared_this_anime_list = anime_title_obj[nendo + season];
     for (let i = 0; i < data.length; i++) {
         let aid = nendo + season_num + data[i];
-        let key = Object.keys(shared_this_anime_list).find(key => shared_this_anime_list[key]["aid"] === aid);
+        let key = Object.keys(shared_this_anime_list).find(key => shared_this_anime_list[key] && shared_this_anime_list[key]["aid"] === aid);
         let koma = shared_this_anime_list[key]["koma"];
         let elm = document.getElementById("shared_" + koma)
         let cookie_data = getCookie(nendo + season + "_" + koma);
