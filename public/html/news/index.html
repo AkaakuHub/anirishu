@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <title>NEWS | あにりしゅ！</title>
+    <meta charset="utf-8">
+    <meta name="description" content="アニメの履修登録を行うことができるサイトです。">
+    <meta name="keywords" content="アニメ,あにめ,anime,ANIME,履修登録,course registration">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="NEWS | あにりしゅ！">
+    <meta property="og:locate" content="ja_JP">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="NEWS | あにりしゅ！">
+    <meta name="twitter:description" content="アニメの履修登録を行うことができるサイトです。">
+    <link rel="stylesheet" type="text/css" href="../../css/stylesheet.css">
+    <script type="module" src="../../scripts/javascript_news.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap" rel="stylesheet">
+    <style>
+    </style>
+</head>
+
+<body>
+    <!-- <div id="tomain">
+        <a href="/#">戻る</a>
+    </div> -->
+    <header class="header">
+        <nav>
+            <div>
+                <h1>あにりしゅ！</h1>
+            </div>
+        </nav>
+    </header>
+    <div class="text">
+        <h3 id="JSdisabled">JavaScriptが無効になっています。<br>有効にしないと正しく動作しません。</h3>
+        <h3 style="user-select: none;-moz-user-select: none;-webkit-user-select: none;-ms-user-select: none;">NEWS</h3>
+        <div id="news_container">
+            <div class="news_box" id="news1">
+                <div class="news_date">2023/10/13</div>
+                <div class="news_title">サイトを公開しました。</div>
+            </div>
+            <div class="news_box" id="news2">
+                <div class="news_date">2023/10/13</div>
+                <div class="news_title">使った技術の備忘録</div>
+            </div>
+        </div>
+    </div>
+    <!-- news本文 -->
+    <div id="news_main" style="display: none;">
+        <div id="news1">
+            サイトを公開しました。<br>お問い合わせ等はすべて問い合わせフォームからお願いします。
+        </div>
+        <div id="news2">
+            本文temp2222
+        </div>
+    </div>
+    <!-- テキストずれ対策 -->
+    <div id="footer">
+        このサイトに登場する名称、アイコン等の権利はすべて権利者に帰属します。<br>このサイトは非公式のものであり、権利者とは一切関係ありません。
+    </div>
+    <div id="TopButton"><a href="#"></a></div>
+
+    <!-- ポップアップ -->
+    <div class="modal-overlay closed" id="modal-overlay"></div>
+    <div class="modal closed" id="modal">
+        <div class="modal-guts">
+            <div class="modal_title"><b>News Title</b></div>
+            <div class="modal_date">News Date</div>
+            <div class="modal_text">News Text</div>
+            <button class="close-button" id="close-button"><a></a></button>
+        </div>
+    </div>
+    <!-- loading -->
+    <div id="loading">
+        <img src="../../icon_load.gif" alt="loading" width="100" height="100" />
+    </div>
+</body>
+
+</html>

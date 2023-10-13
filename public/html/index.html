@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <title>あにりしゅ！</title>
+    <meta charset="utf-8">
+    <meta name="description" content="アニメの履修登録を行うことができるサイトです。">
+    <meta name="keywords" content="アニメ,あにめ,anime,ANIME,履修登録,course registration">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="あにりしゅ！">
+    <meta property="og:locate" content="ja_JP">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="あにりしゅ！">
+    <meta name="twitter:description" content="アニメの履修登録を行うことができるサイトです。">
+    <link rel="stylesheet" type="text/css" href="../css/stylesheet.css">
+    <script type="module" src="../scripts/javascript.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="tomain" class="closed">
+        <a>戻る</a>
+    </div>
+    <div id="hamburger">
+        <div class="openbtn"><span></span><span></span><span></span></div>
+    </div>
+    <header class="header">
+        <nav>
+            <div>
+                <h1>あにりしゅ！</h1>
+            </div>
+        </nav>
+    </header>
+    <div class="text">
+        <h3 id="JSdisabled">JavaScriptが無効になっています。<br>有効にしないと正しく動作しません。</h3>
+        このサイトでは、アニメの履修登録をすることができます。<br>ブックマークに登録して自分用に保管したり、SNSで共有したりしてみましょう!<br><br>
+        ご意見やバグ報告、情報修正、抜けているアニメは<a href="https://forms.gle/RwPZQLyKdNip655KA" target="_blank">こちら</a>からお願いします。<br>
+        サイトの特性上、毎週放送するアニメのみ掲載しています。情報は正確でない可能性があります。ご了承ください。
+        <h2>使い方</h2>
+        カレンダーから好きな時間を指定してアニメを選ぶか、検索ボックスを使って探すことができます。さらに、画面上部のトグルを使って追加や削除を簡単に切り替えることもできます。<br>メニューからボタンを非表示にすることも可能です。
+        <h2>凡例</h2>
+        <div id="hanrei"></div>
+        <div>掲載のないサービスは各公式サイトを参照してください。
+        </div>
+        <h2></h2>
+        <table border="0" cellspacing="0" cellpadding="0" hspace="0" vspace="0" id="main_table">
+            <tbody>
+                <tr>
+                    <td>
+                        <table border="0" cellspacing="10" cellpadding="0" hspace="0" vspace="0">
+                            <tbody>
+                                <tr>
+                                    年度とシーズンを選択してください。
+
+                                    <td class="select_year">
+                                        <select>
+                                            <option value="2023" selected>2023</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table border="0" cellspacing="10" cellpadding="0" hspace="0" vspace="0">
+                            <tbody>
+                                <tr>
+                                    <td id="fuyu" align="center" class="select_season select_season_not_selected"
+                                        title="冬アニメを表示します。"><br>
+                                        冬アニメ
+                                    </td>
+                                    <td id="haru" align="center" class="select_season select_season_not_selected"
+                                        title="春アニメを表示します。"><br>
+                                        春アニメ
+                                    </td>
+                                    <td id="natu" align="center" class="select_season select_season_not_selected"
+                                        title="夏アニメを表示します。"><br>
+                                        夏アニメ
+                                    </td>
+                                    <td id="aki" align="center" class="select_season select_season_not_selected"
+                                        title="秋アニメを表示しています。"><br>
+                                        秋アニメ
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h2>
+                            検索で選ぶ
+                        </h2>
+                        <table border="0" cellspacing="0" cellpadding="0" hspace="0" vspace="0">
+                            <tr style="vertical-align: bottom;">
+                                <td>
+                                    <form id="form1" action="">
+                                        <input id="sbox" id="s" name="s" type="text" placeholder="タイトル・キーワードを入力" />
+                                    </form>
+                                    <!-- 検索結果のボックス -->
+                                    <div id="search_result_box">
+                                        <div id="search_result">
+                                            <div id="search_container">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h2>
+                            カレンダーで選ぶ<div id="AnimeTableVisible"><a></a></div>
+                        </h2>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!-- テキストずれ対策 -->
+    <div class="text2">
+        <table border="0" cellspacing="0" cellpadding="0" hspace="0" vspace="0" id="main_table">
+            <tbody>
+                <tr>
+                    <td>
+                        <table border="0" cellspacing="0" cellpadding="0" id="anime_table">
+                            <tbody id="anime_table_start">
+                                <tr>
+                                    <td class="table_label_x">　</td>
+                                    <td align="center" class="table_youbi">日</td>
+                                    <td align="center" class="table_youbi">月</td>
+                                    <td align="center" class="table_youbi">火</td>
+                                    <td align="center" class="table_youbi">水</td>
+                                    <td align="center" class="table_youbi">木</td>
+                                    <td align="center" class="table_youbi">金</td>
+                                    <td align="center" class="table_youbi">土</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div>
+            <h2>あなたが選んだアニメ</h2>
+            タイトルをクリック/タップすると公式ホームページに遷移します。
+            <!-- ここに結果テーブル -->
+            <table border="0" cellspacing="0" cellpadding="0" id="result_table">
+                <tbody id="result_table_start">
+                    <tr>
+                        <td class="table_label_x">　</td>
+                        <td align="center" class="table_youbi">日</td>
+                        <td align="center" class="table_youbi">月</td>
+                        <td align="center" class="table_youbi">火</td>
+                        <td align="center" class="table_youbi">水</td>
+                        <td align="center" class="table_youbi">木</td>
+                        <td align="center" class="table_youbi">金</td>
+                        <td align="center" class="table_youbi">土</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div id="footer">
+        このサイトに登場する名称、アイコン等の権利はすべて権利者に帰属します。<br>このサイトは非公式のものであり、権利者とは一切関係ありません。
+    </div>
+    <div id="TopButton"><a href="#"></a></div>
+    <div id="TweetButton"><a><br><img src="https://abs.twimg.com/responsive-web/client-web-legacy/icon-ios.77d25eba.png"
+                style="width:45px; border-radius: 100px;"></a></div>
+    <nav id="g-nav">
+        <div id="g-nav-list">
+            <ul>
+                <li><a href="#">Topへ</a></li>
+                <li><a href="#" id="news_onClick">NEWS</a></li>
+                <li><a href="https://forms.gle/RwPZQLyKdNip655KA" target="_blank">ご意見・<br>お問い合わせ</a></li>
+                <li><a href="#" id="ButtonVisible">ボタンを消す</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- トグル -->
+    <div class="toggle_button">
+        <input id="toggle" class="toggle_input" type='checkbox' />
+        <label for="toggle" class="toggle_label">
+            <div id="toggle_moji">追加</div>
+    </div>
+    <!-- 共有されたポップアップ -->
+    <div class="modal-overlay closed" id="modal-overlay"></div>
+    <div class="modal closed" id="modal">
+        <div class="modal-guts">
+            <div class="modal_title"><b>共有されたカレンダー</b></div>
+            <div class="modal_txt">←自分だけのカレンダーを作ろう！！</div>
+            <button class="close-button" id="close-button"><a></a></button>
+            <div id="shared_table_wrapper">
+                <table border="0" cellspacing="0" cellpadding="0" id="shared_table">
+                    <thead>
+                        <tr>
+                            <th class="table_label_x shared_table_title"
+                                style="background: #fff; border-top:none; border-left:none; border-right:none;">　</th>
+                            <th align="center" class="table_youbi shared_table_title">日</th>
+                            <th align="center" class="table_youbi shared_table_title">月</th>
+                            <th align="center" class="table_youbi shared_table_title">火</th>
+                            <th align="center" class="table_youbi shared_table_title">水</th>
+                            <th align="center" class="table_youbi shared_table_title">木</th>
+                            <th align="center" class="table_youbi shared_table_title">金</th>
+                            <th align="center" class="table_youbi shared_table_title">土</th>
+                        </tr>
+                    </thead>
+                    <tbody id="shared_table_start">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-- loading -->
+    <div id="loading">
+        <img src="../icon_load.gif" alt="loading" width="100" height="100" />
+    </div>
+    <!-- news -->
+    <div class="iframe_container closed">
+        <iframe src="news/index.html"></iframe>
+    </div>
+
+</body>
+
+</html>
