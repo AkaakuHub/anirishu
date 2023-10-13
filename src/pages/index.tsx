@@ -31,7 +31,7 @@ const Home = () => {
             <div className="container">
                 <iframe id="iframe_main" src="/html/index.html"></iframe>
             </div>
-            <Script type="text/javascript">
+            <Script id="sendquery" type="text/javascript">
                 let iframe = document.getElementById(&quot;iframe_main&quot;);
                 iframe.contentWindow.postMessage(window.location.search, &apos;*&apos;);
             </Script>
