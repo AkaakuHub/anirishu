@@ -14,8 +14,7 @@ const withPWA = require('next-pwa')({
         expiration: {
           maxEntries: 1
         }
-      },
-      networkTimeoutSeconds: 10,
+      }
     },
   ]
 })
