@@ -117,6 +117,16 @@ function buildHTML(anime_title_obj) {
         event.preventDefault();
     }
     form.addEventListener("submit", disableFormSubmit);
+
+    /* importボックスのリセット */
+    let importBox = document.getElementById("dataImport_input");
+    importBox.value = "";
+    /* importフォーム無効化 */
+    let importForm = document.getElementById("dataImport_form");
+    function disableFormSubmit(event) {
+        event.preventDefault();
+    }
+    importForm.addEventListener("submit", disableFormSubmit);
     /* 凡例のインジェクション */
     let hanrei = document.getElementById("hanrei");
     let temp_txt = `<div>${icon_da}:dアニメ</div>`;
@@ -126,6 +136,67 @@ function buildHTML(anime_title_obj) {
     temp_txt += `<div>${icon_fo}:FOD</div>`;
     temp_txt += `<div>${icon_nh}:その他配信</div>`;
     hanrei.innerHTML += temp_txt;
+
+    // cookieインポートのイベントハンドラ、そして上書きする
+    let importButton = document.getElementById("dataImport_button");
+    importButton.addEventListener('click', handleImportButtonClick);
+
+    function handleImportButtonClick() {
+        let dataImport_input = document.getElementById("dataImport_input");
+        let data = dataImport_input.value;
+        if (data) {
+            if ((data.length - 3) % 5 != 0) {
+                alert("データが不正です。");
+                return;
+            }
+            // cookieに入れるため、もっと厳しくチェックする
+            let data_list = [];
+            let nendo = data.slice(0, 2);
+            let season;
+            switch (data.slice(2, 3)) {
+                case "1":
+                    season = "fuyu";
+                    break;
+                case "2":
+                    season = "haru";
+                    break;
+                case "3":
+                    season = "natu";
+                    break;
+                case "4":
+                    season = "aki";
+                    break;
+            };
+            let season_num = data.slice(2, 3);
+            for (let i = 0; i < (data.length - 3) / 5; i++) {
+                data_list.push(data.slice(3, data.length).slice(i * 5, (i + 1) * 5));
+            }
+            try {
+                let this_anime_list = anime_title_obj[nendo + season];
+                for (let i = 0; i < data_list.length; i++) {
+                    let aid = nendo + season_num + data_list[i];
+                    let key = Object.keys(this_anime_list).find(key => this_anime_list[key]["aid"] === aid);
+                    let koma = this_anime_list[key]["koma"];
+                    // cookieに保存のみ
+                    let cookie_data = getCookie(nendo + season + "_" + koma);
+                    if (cookie_data == null) cookie_data = "";
+                    if (!cookie_data.includes(aid)) {
+                        cookie_data += aid;
+                    }
+                    setCookie(nendo + season + "_" + koma, cookie_data);
+                }
+                alert("インポートに成功しました。\n再読み込みします。");
+                let modal_1 = document.getElementById("modal_1");
+                let modal_overlay_1 = document.getElementById("modal-overlay_1");
+                modal_1.classList.add("closed");
+                modal_overlay_1.classList.add("closed");
+                location.reload();
+            }
+            catch (e) {
+                alert("インポートに失敗しました。\nデータが不正です。\nエラー:\n" + e);
+            }
+        }
+    }
 
     // クエリを受け取るためのイベントハンドラを追加
     window.addEventListener('message', function (event) {
@@ -313,6 +384,10 @@ function createSharedTable(aidValue) {
     modal.classList.remove("closed");
     modal_overlay.classList.remove("closed");
 
+    if ((aidValue.length - 3) % 5 != 0) {
+        alert("クエリパラメータが不正です。");
+        return;
+    }
     /* dataを並べる */
     let data = [];
     let nendo = aidValue.slice(0, 2);
@@ -334,10 +409,6 @@ function createSharedTable(aidValue) {
     let season_num = aidValue.slice(2, 3);
     for (let i = 0; i < (aidValue.length - 3) / 5; i++) {
         data.push(aidValue.slice(3, aidValue.length).slice(i * 5, (i + 1) * 5));
-    }
-    if ((aidValue.length - 3) % 5 != 0) {
-        alert("クエリパラメータが不正です。");
-        return;
     }
     /* テーブルを作成 */
     let shared_this_anime_list = anime_title_obj[nendo + season];
@@ -390,7 +461,8 @@ function convert2svg(this_anime_list, key) {
 
 
 function setCookie(key, value) {
-    document.cookie = key + "=" + encodeURIComponent(value) + "; SameSite=Strict; ";
+    // 有効期限はなし(100年)
+    document.cookie = key + "=" + encodeURIComponent(value) + "; SameSite=Strict; max-age=3153600000; ";
 }
 
 function getCookie(name) {
@@ -574,6 +646,20 @@ $("#news_onClick").click(function () {
 $("#tomain").click(function () {
     $(".iframe_container").addClass("closed");
     $("#tomain").addClass("closed");
+});
+
+//cookieインポート
+$("#dataImportTriggerButton").click(function () {
+    $("#modal_1").removeClass("closed");
+    $("#modal-overlay_1").removeClass("closed");
+});
+
+/* インポートとじるボタン */
+$(".close-button_1").click(function () {
+    $("#modal_1").toggleClass("closed");
+    $("#modal-overlay_1").toggleClass("closed");
+    /* cookieに記録 => 結果表示に再利用 */
+    /* setCookie("visited", "true"); */
 });
 
 /* 入力の部分のズーム対策 */

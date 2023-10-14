@@ -181,6 +181,7 @@
                 <li><a href="#" id="news_onClick">NEWS</a></li>
                 <li><a href="https://forms.gle/RwPZQLyKdNip655KA" target="_blank">ご意見・<br>お問い合わせ</a></li>
                 <li><a href="#" id="ButtonVisible">ボタンを消す</a></li>
+                <li><a href="#" id="dataImportTriggerButton">Cookieをインポート</a></li>
             </ul>
         </div>
     </nav>
@@ -225,6 +226,23 @@
     <!-- news -->
     <div class="iframe_container closed">
         <iframe src="news/index.html"></iframe>
+    </div>
+    <!-- データインポート -->
+    <div class="modal-overlay_1 closed" id="modal-overlay_1">
+        <div id="modal_1" class="modal_1 closed">
+            <div class="modal-guts_1">
+                <div class="modal_title"><b>データインポート</b></div>
+                <div class="modal_txt">データの共有をしたり、Cookieが消えてしまった場合、以前にツイート共有したURLから復元することができます。</div>
+                <button class="close-button_1" id="close-button_1"><a></a></button>
+                <div id="dataImport_container">
+                    文字列を入力してください。
+                    <form id="dataImport_form" action="">
+                        <input id="dataImport_input" type="text" placeholder="例:234001mx052at..." />
+                    </form>
+                    <button id="dataImport_button">インポート</button>
+                </div>
+            </div>
+        </div>
     </div>
 
 </body>
