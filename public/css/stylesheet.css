@@ -897,6 +897,8 @@ h3 {
 @media screen and (max-width: 768px) {
     .modal_title {
         font-size: 1.2em;
+        max-width: 13em;
+        margin-left: 5em;
     }
 }
 
