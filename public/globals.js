@@ -1,5 +1,11 @@
-let iframe = document.getElementById("iframe_main");
-iframe.contentWindow.postMessage(window.location.search, '*');
+const jsInitCheckTimer = setInterval(jsLoaded, 1000);
+function jsLoaded() {
+    if (document.getElementById("iframe_main") != null) {
+        clearInterval(jsInitCheckTimer);
+        let iframe = document.getElementById("iframe_main");
+        iframe.contentWindow.postMessage(window.location.search, '*');
+    }
+}
 
 /* 入力の部分のズーム対策 */
 var ua = navigator.userAgent.toLowerCase();

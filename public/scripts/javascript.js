@@ -200,7 +200,7 @@ function buildHTML(anime_title_obj) {
 
     // クエリを受け取るためのイベントハンドラを追加
     window.addEventListener('message', function (event) {
-        // event.dataに送られてきたデータが含まれています
+        // event.dataに送られてきたデータ
         let urlParams = event.data;
         /* aidをクエリからとる */
         let startIndex = urlParams.indexOf("aid=");
