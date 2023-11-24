@@ -1309,6 +1309,15 @@ _:future,
     text-align: left;
 }
 
+.modal_text pre{
+    overflow:auto;
+}
+
+.modal_text code{
+    font-size: 1em;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
 
 /* cookieimport */
 .modal_1 {

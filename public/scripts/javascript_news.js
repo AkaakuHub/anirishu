@@ -20,7 +20,6 @@ $(".news_box").click(function () {
     $(".modal_title").text(news_title);
     $(".modal_date").text(news_date);
     let news_main_text = $("#news_main").find("#" + id).html();
-    console.log(news_main_text);
     $(".modal_text").html(news_main_text);
 });
 
