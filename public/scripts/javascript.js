@@ -588,11 +588,9 @@ $(function () {
 });
 
 /* 最初のポップアップ */
-$(".close-button").click(function () {
+$(".close-button_shared").click(function () {
     $("#modal").toggleClass("closed");
     $("#modal-overlay").toggleClass("closed");
-    /* cookieに記録 => 結果表示に再利用 */
-    /* setCookie("visited", "true"); */
 });
 
 /* tweetbutton */
