@@ -2,7 +2,7 @@
 <html lang="ja">
 
 <head>
-    <title>NEWS | あにりしゅ！</title>
+    <title>あにりしゅ！- News</title>
     <meta charset="utf-8">
     <meta name="description" content="アニメの履修登録を行うことができるサイトです。">
     <meta name="keywords" content="アニメ,あにめ,anime,ANIME,履修登録,course registration">
@@ -26,37 +26,48 @@
 </head>
 
 <body>
-    <!-- <div id="tomain">
-        <a href="/#">戻る</a>
-    </div> -->
-    <header class="header">
+    <div id="tomain">
+        <a href="/" target="_parent">戻る</a>
+    </div>
+    <header class="header_news">
         <nav>
             <div>
                 <h1>あにりしゅ！</h1>
             </div>
         </nav>
+        <div class="news_top">
+            <h3>NEWS</h3>
+        </div>
     </header>
-    <div class="text">
-        <h3 id="JSdisabled">JavaScriptが無効になっています。<br>有効にしないと正しく動作しません。</h3>
-        <h3 style="user-select: none;-moz-user-select: none;-webkit-user-select: none;-ms-user-select: none;">NEWS</h3>
-        <div id="news_container">
-            <div class="news_box" id ="news3">
-                <div class="news_date">2023/11/24</div>
-                <div class="news_title">共有されたクエリが表示されないバグを修正しました。</div>
-            </div>
-            <div class="news_box" id="news2">
-                <div class="news_date">2023/10/14</div>
-                <div class="news_title">インポート機能を追加しました。</div>
-            </div>
-            <div class="news_box" id="news1">
-                <div class="news_date">2023/10/13</div>
-                <div class="news_title">サイトを公開しました。</div>
+    <div class="news_parent_container">
+        <div class="news_child">
+            <h3 id="JSdisabled">JavaScriptが無効になっています。<br>有効にしないと正しく動作しません。</h3>
+            <div id="news_container">
+                <!-- <div class="news_box" id ="1111">
+                    <div class="news_date">1111</div>
+                    <div class="news_title">test</div>
+                </div> -->
+                <div class="news_box" id ="202311241">
+                    <div class="news_date">2023/11/24</div>
+                    <div class="news_title">共有されたクエリが表示されないバグを修正しました。</div>
+                </div>
+                <div class="news_box" id="202310141">
+                    <div class="news_date">2023/10/14</div>
+                    <div class="news_title">インポート機能を追加しました。</div>
+                </div>
+                <div class="news_box" id="202310131">
+                    <div class="news_date">2023/10/13</div>
+                    <div class="news_title">サイトを公開しました。</div>
+                </div>
             </div>
         </div>
     </div>
     <!-- news本文 -->
     <div id="news_main" style="display: none;">
-        <div id="news3">
+        <!-- <div id="1111">
+            test
+        </div> -->
+        <div id="202311241">
             特定の要素が読み込まれるのを待つことによって正しく実装することができました。
             <pre>
                 <code>
@@ -70,11 +81,11 @@ function jsLoaded() {
                 </code>
             </pre>
         </div>
-        <div id="news2">
+        <div id="202310141">
             メニュー > Cookieをインポート から、Cookieをインポートすることができます。<br>
             インポートすると、自動で再読み込みされ、結果が反映されます。<br>
         </div>
-        <div id="news1">
+        <div id="202310131">
             サイトを公開しました。<br>お問い合わせ等はすべて問い合わせフォームからお願いします。
         </div>
     </div>
@@ -85,13 +96,18 @@ function jsLoaded() {
     <div id="TopButton"><a href="#"></a></div>
 
     <!-- ポップアップ -->
-    <div class="modal-overlay closed" id="modal-overlay"></div>
-    <div class="modal closed" id="modal">
+    <div class="modal-overlay closed_modal" id="modal-overlay"></div>
+    <div class="modal closed_modal" id="modal">
         <div class="modal-guts">
-            <div class="modal_title"><b>News Title</b></div>
-            <div class="modal_date">News Date</div>
-            <div class="modal_text">News Text</div>
-            <button class="close-button" id="close-button"><a></a></button>
+            <div class="modal_header">
+                <button class="close-button" id="close-button"><a></a></button>
+                <div class="modal_title"><b>News Title</b></div>
+            </div>
+            <div class="modal_field">
+                <div class="modal_date">News Date</div>
+                <div class="modal_text">News Text</div>
+            </div>
+
         </div>
     </div>
     <!-- loading -->

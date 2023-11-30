@@ -111,7 +111,7 @@ h3 {
     overflow: hidden;
     padding-left: 0.8em;
     padding-right: 0.8em;
-    margin-bottom: 10em;
+    padding-bottom: 10em;
 }
 
 .text a:link {
@@ -216,6 +216,10 @@ h3 {
 
 .select_season_selected {
     border: solid 2px #ff6eff;
+}
+
+.select_season_selected:hover {
+    cursor: not-allowed;
 }
 
 .select_season_not_selected {
@@ -663,33 +667,17 @@ h3 {
 
 
 /*ナビゲーション*/
-/* PC */
-@media screen and (min-width: 451px) {
-    #g-nav ul {
-        /*ナビゲーション天地中央揃え*/
-        position: absolute;
-        z-index: 100;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-}
-
-/* スマホより小さめ */
-/* safariとかだとなんかずれる */
-@media screen and (max-width: 451px) {
-    #g-nav ul {
-        /*ナビゲーション天地中央揃え*/
-        position: absolute;
-        z-index: 100;
-        top: 50%;
-        left: 46%;
-        transform: translate(-50%, -50%);
-    }
+#g-nav ul {
+    /*ナビゲーション天地中央揃え*/
+    position: absolute;
+    z-index: 100;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
 }
 
 /*リストのレイアウト設定*/
-
 #g-nav li {
     list-style: none;
     text-align: center;
@@ -852,7 +840,7 @@ h3 {
     transform: rotate(0.03deg);
     display: inline-flex;
     width: 100%;
-    height: 80%;
+    height: 95%;
     /* margin-top: 5em; */
     /* margin-bottom: 1em; */
     /* width: 90%; */
@@ -861,7 +849,7 @@ h3 {
     position: fixed;
     z-index: 1001;
     left: 50%;
-    top: 55%;
+    top: 50%;
     transform: translate(-50%, -50%);
     background: white;
     box-shadow: 0 0 60px 10px rgba(0, 0, 0, 0.9);
@@ -874,32 +862,28 @@ h3 {
     transition: visibility 0.5s, opacity 0.5s;
 }
 
-.modal_title {
-    text-align: center;
+.modal_header {
     margin-top: 0.4em;
     margin-bottom: 0.4em;
-    font-size: 1.6em;
-    /* テキスト選択を無効にする */
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
+    font-size: 1.4em;
+    width:100%;
+    /* padding-left: 1.3em; */
+    /* max-width: 70%; */
+    position: relative;
+    /* left:15%; */
+    float: left;
+    /* text-align: center; */
+    margin-left: 10px;
+    display: flex;
 }
 
-/* PC */
-@media screen and (min-width: 768px) {
-    .modal_title {
-        font-size: 2em;
-    }
+.modal_field{
+    margin-top: 60px;
 }
 
-/* スマホ */
-@media screen and (max-width: 768px) {
-    .modal_title {
-        font-size: 1.2em;
-        max-width: 13em;
-        margin-left: 5em;
-    }
+.modal_title{
+    width: 100%;
+    padding-right: 0.8em;
 }
 
 .closed {
@@ -907,6 +891,13 @@ h3 {
     opacity: 0;
     transition: visibility 0.5s, opacity 0.5s;
     display: none;
+}
+
+.closed_modal {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.5s, opacity 0.5s;
+    /* display: none; */
 }
 
 .modal-overlay {
@@ -933,7 +924,7 @@ h3 {
 }
 
 .modal .close-button {
-    position: fixed;
+    position: relative;
     z-index: 1001;
     border: 0;
     background: #6b86ff;
@@ -943,8 +934,6 @@ h3 {
     border-radius: 1em;
     width: 60px;
     height: 60px;
-    left: 20px;
-    top: 20px;
 }
 
 .modal_txt {
@@ -954,11 +943,14 @@ h3 {
     font-size: 1em;
     margin:1em;
     text-align: left;
-    /* テキスト選択を無効にする
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none; */
+}
+
+.modal_txt_1 {
+    position: fixed;
+    top: 3em;
+    left: 100px;
+    font-size: 1em;
+    margin:1em;
 }
 
 #close-button a {
@@ -980,18 +972,12 @@ h3 {
     width: 48px;
     height: 48px;
     top: 9px;
-    right: 0;
-    left: 3px;
+    left: 2px;
     margin: auto;
 }
 
 /* PC */
 @media screen and (min-width: 768px) {
-    .modal .close-button {
-        left: 20px;
-        top: 20px;
-    }
-
     .modal_txt {
         font-size: 1.2em;
     }
@@ -999,11 +985,6 @@ h3 {
 
 /* スマホ */
 @media screen and (max-width: 768px) {
-    .modal .close-button {
-        left: 10px;
-        top: 10px;
-    }
-
     .modal_txt {
         font-size: 0.9em;
     }
@@ -1238,11 +1219,12 @@ _:future,
     padding-top: 0.3em;
     padding-bottom: 0.3em;
     font-size: 0.9em;
+    position: fixed;
 }
 
 /*  news用 */
 #tomain {
-    z-index: 2001;
+    z-index: 999;
     position: fixed;
     right: 1em;
     top: 1.8em;
@@ -1255,7 +1237,7 @@ _:future,
     background: #00f;
     padding: 1em;
     border-radius: 5px;
-    border: inset 5px #9fddff;
+    border: none;
 }
 
 #tomain a:link {
@@ -1293,7 +1275,7 @@ _:future,
     margin-top: 1em;
     margin-bottom: 1em;
     padding: 0.3em;
-    background: rgb(194, 221, 255);
+    background: linear-gradient(to right bottom, #b9c3f6, #97eeff);
     border: inset 3px #5c7ade;
     border-radius: 0.6em;
 }
@@ -1491,14 +1473,14 @@ _:future,
 
 #dataImport_button{
     font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 1.3em;
     transform: rotate(0.03deg);
-    width: 6em;
+    width: 8em;
     height: 100%;
     border-radius: 1em;
     background: #7fbfff;
     border: none;
     color: #fff;
-    font-size: 1em;
     text-align: center;
     padding:0.3em;
     margin-top: 1em;
@@ -1507,4 +1489,50 @@ _:future,
 #dataImport_button:hover{
     color: #666;
     filter: brightness(0.8);
+    cursor: pointer;
+}
+
+.news_top{
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    position: fixed;
+    left: 10em;
+}
+
+.news_parent_container{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    transform: rotate(0.03deg);
+    margin-top: 5.5em;
+    padding: none;
+    overflow: hidden;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+    top: 5.5em;
+    z-index: 0;
+}
+
+.header_news {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    transform: rotate(0.03deg);
+    color: #fff;
+    display: flex;
+    margin-bottom: 0;
+    top: 0;
+    position: fixed;
+    z-index: 1;
+    justify-content: space-between;
+    width: 100%;
+    /* テキスト選択を無効にする */
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    height: 5em;
+    padding-left: 0.7em;
+    background: #2a2a2a;
+    border-top: solid 2px #000;
+    border-bottom: solid 2px #000;
+    float: left;
 }

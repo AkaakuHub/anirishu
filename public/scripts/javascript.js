@@ -637,17 +637,6 @@ $(function () {
 
 // dom読み込んだときはactiveをとる
 
-
-$("#news_onClick").click(function () {
-    $(".iframe_container").removeClass("closed");
-    $("#tomain").removeClass("closed");
-});
-
-$("#tomain").click(function () {
-    $(".iframe_container").addClass("closed");
-    $("#tomain").addClass("closed");
-});
-
 //cookieインポート
 $("#dataImportTriggerButton").click(function () {
     $("#modal_1").removeClass("closed");
