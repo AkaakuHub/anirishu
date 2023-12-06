@@ -12,7 +12,7 @@ const Home = () => {
         setText(e.target.value);
     };
 
-    const ogImage = router.query.aid ? `${baseUrl}/api/ogp?aid=${router.query.aid}` : "/default.png";
+    const ogImage = router.query.aid ? `${baseUrl}/api/ogp?aid=${router.query.aid}` : "https://raw.githubusercontent.com/AkaakuHub/anirishu/main/public/default.png";
     return (
         <div>
             <Head>

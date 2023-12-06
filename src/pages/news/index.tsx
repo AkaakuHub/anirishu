@@ -16,7 +16,7 @@ const Home = () => {
     };
 
     const nid = router.query.nid ? router.query.nid : "";
-    const ogImage = nid != "" ? `${baseUrl}/api/ogp?nid=${router.query.nid}` : "/default.png";
+    const ogImage = nid != "" ? `${baseUrl}/api/ogp?nid=${router.query.nid}` : "https://raw.githubusercontent.com/AkaakuHub/anirishu/main/public/default.png";
     const docTitle = nid != "" ? `${newslist[nid as string]} | あにりしゅ` : "News | あにりしゅ";
     return (
         <div>
