@@ -1,4 +1,4 @@
-const jsInitCheckTimer = setInterval(jsLoaded, 100);
+const jsInitCheckTimer = setInterval(jsLoaded, 1000);
 function jsLoaded() {
     if (document.getElementById("iframe_main") != null) {
         clearInterval(jsInitCheckTimer);
