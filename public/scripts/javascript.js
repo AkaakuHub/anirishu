@@ -611,7 +611,7 @@ $("#TweetButton").click(function () {
         }
     }
     let mongon = "私が見るアニメはこれだ！\n";
-    let tweetURL = "https://twitter.com/intent/tweet?text=" + encodeURIComponent(mongon) + "&url=https://anirishu.vercel.app/" + encodeURIComponent(tweetText) + "&hashtags=あにりしゅ";
+    let tweetURL = "https://twitter.com/intent/tweet?text=" + encodeURIComponent(mongon) + "&url=https://anirishu.vercel.app?aid=" + encodeURIComponent(tweetText) + "&hashtags=あにりしゅ";
     window.open(tweetURL, "_blank");
 });
 

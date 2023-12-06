@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
 html,
 body {
     width: 100%;
@@ -44,14 +45,14 @@ iframe {
 /* PC */
 @media screen and (min-width: 768px) {
     body {
-        font-size: 16px;
+        font-size: 15px;
     }
 }
 
 /* スマホ */
 @media screen and (max-width: 768px) {
     body {
-        font-size: 16px;
+        font-size: 14px;
     }
 }
 
@@ -770,7 +771,7 @@ h3 {
     height: 50px;
     transform-origin: center center center;
     left: 2.5em;
-    top: 0.3em;
+    top: 0.4em;
     /* bottom: -0.4em; */
     text-align: center;
     vertical-align: middle;
@@ -840,7 +841,7 @@ h3 {
     transform: rotate(0.03deg);
     display: inline-flex;
     width: 100%;
-    height: 95%;
+    height: 99%;
     /* margin-top: 5em; */
     /* margin-bottom: 1em; */
     /* width: 90%; */
@@ -866,7 +867,7 @@ h3 {
     margin-top: 0.4em;
     margin-bottom: 0.4em;
     font-size: 1.4em;
-    width:100%;
+    width: 100%;
     /* padding-left: 1.3em; */
     /* max-width: 70%; */
     position: relative;
@@ -875,20 +876,26 @@ h3 {
     /* text-align: center; */
     margin-left: 10px;
     display: flex;
+    /* background-color: #f00; */
 }
 
-.modal_field{
+.modal_field {
     margin-top: 60px;
 }
 
-.modal_field_news{
+.modal_field_news {
     height: 85%;
+    width: 100%;
     overflow: auto;
+    opacity: 1;
+    background-image: radial-gradient(#9ba7ff79 1.05px, #ffffff 1.05px);
+    background-size: 21px 21px;
 }
 
-.modal_title{
+.modal_title {
     width: 100%;
-    padding-right: 0.8em;
+    padding-left: 1em;
+    padding-right: 1.8em;
 }
 
 .closed {
@@ -959,8 +966,9 @@ h3 {
     top: 3em;
     left: 100px;
     font-size: 1em;
-    margin:1em;
+    margin: 1em;
     text-align: left;
+    font-size: 1em;
 }
 
 .modal_txt_1 {
@@ -968,7 +976,7 @@ h3 {
     top: 3em;
     left: 100px;
     font-size: 1em;
-    margin:1em;
+    margin: 1em;
 }
 
 #close-button a {
@@ -979,6 +987,7 @@ h3 {
     text-decoration: none;
     text-align: center;
 }
+
 #close-button_shared a {
     position: relative;
     display: block;
@@ -1016,20 +1025,6 @@ h3 {
     margin: auto;
 }
 
-/* PC */
-@media screen and (min-width: 768px) {
-    .modal_txt {
-        font-size: 0.9em
-    }
-}
-
-/* スマホ */
-@media screen and (max-width: 768px) {
-    .modal_txt {
-        font-size: 0.9em;
-    }
-}
-
 /* // 最新のsafari用 */
 _::-webkit-full-page-media,
 _:future,
@@ -1054,6 +1049,7 @@ _:future,
 
 /* // 古いsafari用 */
 @media screen and (-webkit-min-device-pixel-ratio:0) {
+
     ::i-block-chrome,
     #close-button a::before {
         width: 48px;
@@ -1066,6 +1062,7 @@ _:future,
 
 /* // 古いsafari用 */
 @media screen and (-webkit-min-device-pixel-ratio:0) {
+
     ::i-block-chrome,
     #close-button_shared a::before {
         width: 48px;
@@ -1366,17 +1363,35 @@ _:future,
     margin: 1em;
     text-align: left;
     height: 100%;
+    line-height: 2;
+    background-color: #ffffff00;
 }
 
-.modal_text pre{
-    overflow:auto;
+/* PC */
+@media screen and (min-width: 768px) {
+    .modal_text {
+        width: 750px;
+        /*中央揃え*/
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
-.modal_text code{
+.modal_text pre {
+    overflow: auto;
+}
+
+.modal_text code {
     font-size: 1em;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'M PLUS 1 Code', monospace;
+    transform: rotate(0.03deg);
+    position: relative;
+    border-radius: 0.5em;
 }
 
+.modal_text pre ::selection {
+    background: #ffffffac;
+}
 
 /* cookieimport */
 .modal_1 {
@@ -1524,9 +1539,9 @@ _:future,
     transition: filter 0.2s ease-in-out;
 }
 
-#dataImport_container{
+#dataImport_container {
     position: relative;
-    top:30%;
+    top: 30%;
 }
 
 /*フォーム全体*/
@@ -1548,7 +1563,7 @@ _:future,
     z-index: 1002;
 }
 
-#dataImport_button{
+#dataImport_button {
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 1.3em;
     transform: rotate(0.03deg);
@@ -1559,17 +1574,17 @@ _:future,
     border: none;
     color: #fff;
     text-align: center;
-    padding:0.3em;
+    padding: 0.3em;
     margin-top: 1em;
 }
 
-#dataImport_button:hover{
+#dataImport_button:hover {
     color: #666;
     filter: brightness(0.8);
     cursor: pointer;
 }
 
-.news_top{
+.news_top {
     user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;
@@ -1578,7 +1593,7 @@ _:future,
     left: 10em;
 }
 
-.news_parent_container{
+.news_parent_container {
     font-family: 'M PLUS Rounded 1c', sans-serif;
     transform: rotate(0.03deg);
     margin-top: 5.5em;
@@ -1612,4 +1627,345 @@ _:future,
     border-top: solid 2px #000;
     border-bottom: solid 2px #000;
     float: left;
+}
+
+/* 主にニュース */
+.modal_text>h4 {
+    font-size: 1.4em;
+    border-bottom: solid 2px #0a1c324e;
+    background: linear-gradient(to left, #fff, #ffc0c0);
+    padding-left: 0.2em;
+}
+
+/**/
+
+.copy_header {
+    position: relative;
+    top: 1em;
+    height: 0px;
+    width: 100%;
+    display: flex;
+    text-align: right;
+    right: 0px;
+}
+
+.modal .clipboard-icon_button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1001;
+    border: 0;
+    background: none;
+    color: white;
+    font-size: 1rem;
+    width: 60px;
+    height: 60px;
+}
+
+.modal .clipboard-icon_text {
+    position: absolute;
+    font-size: 1em;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    transform: rotate(0.03deg);
+    right: 4em;
+    top: 10px;
+    display: inline-block;
+    z-index: 1001;
+    border: 0;
+    background: none;
+    color: white;
+    font-size: 1rem;
+    background-color: #000;
+    border-radius: 0.5em;
+    /* テキストを選択できないようにする */
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+/* // 最新のsafari用 */
+_::-webkit-full-page-media,
+_:future,
+:root .clipboard-icon_text {
+    top: 0px;
+}
+
+/* // 古いsafari用 */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+    ::i-block-chrome,
+    .clipboard-icon_text {
+        top: 0px;
+    }
+}
+
+#clipboard-icon_button a {
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    text-align: center;
+    left: 0.5em;
+    top: 0em;
+}
+
+#clipboard-icon_button a::before {
+    font-family: "Font Awesome 5 Free";
+    content: '\f0ea';
+    font-weight: 900;
+    font-size: 30px;
+    color: #ffffffce;
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    top: 2px;
+    left: 0px;
+    margin: auto;
+}
+
+/* // 最新のsafari用 */
+_::-webkit-full-page-media,
+_:future,
+:root #clipboard-icon_button a::before {
+    width: 48px;
+    height: 48px;
+    top: -10px;
+    left: -10px;
+}
+
+/* // 古いsafari用 */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+    ::i-block-chrome,
+    #clipboard-icon_button a::before {
+        width: 48px;
+        height: 48px;
+        top: 0px;
+        left: 0px;
+    }
+}
+
+.modal #clipboard-icon_button {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    transform: rotate(0.03deg);
+    filter: brightness(1);
+    transition: filter 0.2s ease-in-out;
+    text-align: center;
+}
+
+.modal #clipboard-icon_button:hover {
+    cursor: pointer;
+    filter: brightness(0.8);
+    transition: filter 0.2s ease-in-out;
+}
+
+.modal #code_field {
+    overflow-y: hidden;
+}
+
+.modal #code_field code {
+    scrollbar-color: #fff #545454;
+}
+
+/* テキスト装飾 */
+.md_big3 {
+    font-size: 60px;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+    padding: none;
+    transition: font-size 0.1s, margin-bottom 0.1s, margin-top 0.1s;
+    display: inline-block;
+    /* テキストを選択できないようにする */
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.md_big3:hover {
+    font-size: 62.5px;
+    margin-bottom: -2.5px;
+    padding: none;
+    transition: font-size 0.1s, margin-bottom 0.1s;
+    cursor: pointer;
+}
+
+.md_big3:active {
+    transform: rotate3d(0, 0, 1, 360deg);
+    transition: transform 1s ease-in-out;
+}
+
+.md_backq {
+    font-family: 'M PLUS 1 Code', monospace;
+    transform: rotate(0.03deg);
+    background: #ebebeb;
+    display: inline-block;
+    border-radius: 0.3em;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+}
+
+/* OGP */
+
+.embed_frame {
+    margin-top: 1em;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: auto;
+}
+
+.embed_wrapper {
+    height: inherit;
+    padding-left: 1em;
+    width: 100%;
+}
+
+.embed_frame>a {
+    position: relative;
+    border: solid 2px #215aa03c;
+    border-radius: 1em;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:left; /* 横方向の配置を左寄せにする */
+    height: 7em;
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+    transition: background-color 0.2s;
+}
+
+.embed_frame>a:hover {
+    background-color: #ededed;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.embed_title {
+    font-size: 1.05em;
+    padding: 0px;
+    margin-top: -0.6em;
+    margin-bottom: -0.3em;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.embed_url {
+    font-size: 0.9em;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #5b5b5b;
+    margin-top: -0.2em;
+    margin-bottom: -0.2em;
+    max-width: calc(100vw - 18em);
+}
+
+.embed_frame>a>img {
+    flex-shrink: 1;
+    max-width: 7em;
+    max-height: 7em;
+    object-fit: contain;
+    padding-right: 0.7em;
+    border-right: solid 2px #215aa03c;
+}
+
+.embed_description {
+    font-size: 0.8em;
+    height: 7em;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* 読了バー */
+.progress-bar {
+    position: fixed;
+    top: calc(0.75em + 60px);
+    left: 0px;
+    width: 100%;
+    height: 5px;
+    z-index:9999;
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0.5s, opacity 0.5s;
+}
+
+.progress-bar_closed {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.5s, opacity 0.5s;
+}
+
+/* */
+
+
+
+.yt_iframe {
+    margin-top: 5%;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+
+.yt_iframe > iframe {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* imgは画面の中央横におく */
+.news_fig{
+    text-align: center;
+}
+
+.news_fig > img {
+    width: 80%;
+    max-width: 40em;
+    height: auto;
+}
+
+/* キャプションは画像下の中央におく */
+.news_fig > div {
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.no_scrollbar {
+    /* スクロールバーを消す */
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.news_main > div > a {
+    /* 文字はみだしを点々 */
+    font-size: 1em;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
