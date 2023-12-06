@@ -412,7 +412,6 @@ h3 {
     color: #120099;
 }
 
-/* tweetbutton */
 /* せめてここだけでもtweetにしたいなぁ */
 #TweetButton:hover {
     cursor: pointer;
@@ -438,6 +437,12 @@ h3 {
     border-radius: 20px;
     z-index: 1;
     display: block;
+}
+
+.TweetButton_news{
+    z-index: 10000!important;
+    opacity: 0.8!important;
+    bottom: 40px!important;
 }
 
 #TweetButton a {

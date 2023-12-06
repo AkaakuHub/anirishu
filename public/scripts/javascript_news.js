@@ -1,4 +1,5 @@
 let isloading = true;
+let nid = "0";
 
 // ページが読み込まれたとき
 document.addEventListener("DOMContentLoaded", function () {
@@ -9,6 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let loading = document.getElementById("loading");
     loading.classList.add("load_closed");
     isloading = false;
+    $("#TweetButton").hide();
     // codeの構築
     buildCodeField();
 });
@@ -83,6 +85,8 @@ $(".news_box").click(function () {
 
 
 function showNews(id, date, title) {
+    nid = id;
+    $("#TweetButton").fadeIn();
     // eventもcloneする
     $("#modal").removeClass("closed_modal");
     $("#modal-overlay").removeClass("closed_modal");
@@ -106,6 +110,7 @@ function showNews(id, date, title) {
 
 // modal閉じるボタン
 $(".close-button").click(function () {
+    $("#TweetButton").fadeOut();
     $("#modal").addClass("closed_modal");
     $("#modal-overlay").addClass("closed_modal");
     // 読了メータのイベントを削除するため、要素ごと削除してから再構築
@@ -296,3 +301,13 @@ function showCopyNotification(object) {
         });
     }, 1000);
 }
+
+/* tweetbutton */
+$("#TweetButton").click(function () {
+    // windowのtitleを取得
+    let mongon = parent.document.title;
+    // 現在の、modalのidを取得
+    let tweetText = nid;
+    let tweetURL = "https://twitter.com/intent/tweet?text=" + encodeURIComponent(mongon) + "&url=https://anirishu.vercel.app/nid/" + encodeURIComponent(tweetText) + "&hashtags=あにりしゅ";
+    window.open(tweetURL, "_blank");
+});
