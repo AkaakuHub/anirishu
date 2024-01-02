@@ -19,7 +19,6 @@ var toggle_mode = "add";
 var nendo = getCurrentJapanTime().getFullYear().toString().slice(-2);
 var season = getSeasonByMonth();
 
-
 /* ページが読み込まれたとき */
 document.addEventListener("DOMContentLoaded", function () {
     /* JSdisabledをけす */
@@ -173,6 +172,12 @@ function buildHTML(anime_title_obj) {
             }
             try {
                 let this_anime_list = anime_title_obj[nendo + season];
+                if (this_anime_list == null || this_anime_list == undefined) {
+                    // データベース未更新用の仮
+                    nendo = "23";
+                    season = "aki";
+                    this_anime_list = anime_title_obj[nendo + season];
+                }
                 for (let i = 0; i < data_list.length; i++) {
                     let aid = nendo + season_num + data_list[i];
                     let key = Object.keys(this_anime_list).find(key => this_anime_list[key]["aid"] === aid);
@@ -219,6 +224,12 @@ function buildHTML(anime_title_obj) {
 /* 季節が変わったときもここ */
 function refresh_table(anime_title_obj, jikan, youbi) {
     let this_anime_list = anime_title_obj[nendo + season];
+    if (this_anime_list == null || this_anime_list == undefined) {
+        // データベース未更新用の仮
+        nendo = "23";
+        season = "aki";
+        this_anime_list = anime_title_obj[nendo + season];
+    }
     let keys = Object.keys(this_anime_list);
     /* ur_animeを初期化する2(季節変えたときよう) */
     for (let i = 1; i <= jikan; i++) {
@@ -412,6 +423,12 @@ function createSharedTable(aidValue) {
     }
     /* テーブルを作成 */
     let shared_this_anime_list = anime_title_obj[nendo + season];
+    if (shared_this_anime_list == null || shared_this_anime_list == undefined) {
+        // データベース未更新用の仮
+        nendo = "23";
+        season = "aki";
+        shared_this_anime_list = anime_title_obj[nendo + season];
+    }
     for (let i = 0; i < data.length; i++) {
         let aid = nendo + season_num + data[i];
         let key = Object.keys(shared_this_anime_list).find(key => shared_this_anime_list[key] && shared_this_anime_list[key]["aid"] === aid);
