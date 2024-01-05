@@ -4842,6 +4842,55 @@
             "url": "https://www.greatpretender.jp/",
             "kw": ""
         },
+        "葬送のフリーレン(TOKYO MX)": {
+            "aid": "241059mx",
+            "time": "23:00",
+            "koma": "fr5",
+            "url": "https://frieren-anime.jp/",
+            "kw": ""
+        },
+        "葬送のフリーレン(AT-X)": {
+            "aid": "241059at",
+            "time": "23:30",
+            "koma": "su6",
+            "url": "https://frieren-anime.jp/",
+            "kw": ""
+        },
+        "葬送のフリーレン(Animax)": {
+            "aid": "241059ax",
+            "time": "20:30",
+            "koma": "sa11",
+            "url": "https://frieren-anime.jp/",
+            "kw": ""
+        },
+        "Fate/Zero[再](BS11)": {
+            "aid": "241060b1",
+            "time": "25:00",
+            "koma": "fr9",
+            "url": "https://www.fate-zero.jp/",
+            "kw": ""
+        },
+        "宇宙よりも遠い場所[再](NHIK Eテレ)": {
+            "aid": "241061tv",
+            "time": "18:25",
+            "koma": "sa11",
+            "url": "http://yorimoi.com/",
+            "kw": ""
+        },
+        "ラブライブ！虹ヶ咲学園スクールアイドル同好会[再](TOKYO MX)": {
+            "aid": "241062mx",
+            "time": "22:30",
+            "koma": "su4",
+            "url": "https://www.lovelive-anime.jp/nijigasaki/",
+            "kw": "ニジガク"
+        },
+        "ラブライブ！虹ヶ咲学園スクールアイドル同好会[再](BS11)": {
+            "aid": "241062b1",
+            "time": "24:00",
+            "koma": "su7",
+            "url": "https://www.lovelive-anime.jp/nijigasaki/",
+            "kw": "ニジガク"
+        },
         "BASTARD!!(バスタード)-暗黒の破壊神-【地獄の鎮魂歌編】(第2期)(Abema)": {
             "aid": "241001ab",
             "time": "25:00",
@@ -4866,7 +4915,7 @@
         "弱キャラ友崎くん 2nd STAGE(dアニメ)": {
             "aid": "241002da",
             "time": "22:00",
-            "koma": "3",
+            "koma": "fr3",
             "url": "https://tomozaki-koushiki.com/",
             "kw": "友崎,弱キャラ"
         },
@@ -4936,7 +4985,7 @@
         "即死チートが最強すぎて、異世界のやつらがまるで相手にならないんですが。(配信)": {
             "aid": "241008nh",
             "time": "24:30",
-            "koma": "8",
+            "koma": "we8",
             "url": "https://sokushicheat-pr.com/",
             "kw": ""
         },
@@ -5069,7 +5118,7 @@
         "マッシュル-MASHLE- 第2期(dアニメ)": {
             "aid": "241018da",
             "time": "23:30",
-            "koma": "6",
+            "koma": "sa6",
             "url": "https://mashle.pw/",
             "kw": ""
         },
@@ -5132,14 +5181,14 @@
         "天官賜福 貮(第2期)【日本語吹替版】(配信)": {
             "aid": "241024nh",
             "time": "12:00",
-            "koma": "11",
+            "koma": "we11",
             "url": "https://tgcf-anime.com/",
             "kw": ""
         },
         "天官賜福 貮(第2期)【日本語吹替版】(Abema)": {
             "aid": "241024ab",
             "time": "21:30",
-            "koma": "2",
+            "koma": "su2",
             "url": "https://tgcf-anime.com/",
             "kw": ""
         },
@@ -5167,7 +5216,7 @@
         "真の仲間じゃないと勇者のパーティーを追い出されたので、辺境でスローライフすることにしました 第2期(dアニメ)": {
             "aid": "241026da",
             "time": "23:00",
-            "koma": "5",
+            "koma": "su5",
             "url": "https://shinnonakama.com/",
             "kw": ""
         },
@@ -5216,7 +5265,7 @@
         "望まぬ不死の冒険者(配信)": {
             "aid": "241031nh",
             "time": "22:00",
-            "koma": "3",
+            "koma": "fr3",
             "url": "https://nozomanufushi-anime.jp/",
             "kw": ""
         },
@@ -5307,7 +5356,7 @@
         "悪役令嬢レベル99～私は裏ボスですが魔王ではありません～(dアニメ)": {
             "aid": "241038da",
             "time": "24:30",
-            "koma": "8",
+            "koma": "tu8",
             "url": "https://akuyakulv99-anime.com/",
             "kw": ""
         },
@@ -5321,7 +5370,7 @@
         "外科医エリーゼ(dアニメ)": {
             "aid": "241039da",
             "time": "22:00",
-            "koma": "3",
+            "koma": "we3",
             "url": "https://surgeon-elise.com/",
             "kw": ""
         },
@@ -5482,8 +5531,15 @@
         "ラグナクリムゾン 2ndクール(dアニメ)": {
             "aid": "241052da",
             "time": "24:00",
-            "koma": "7",
+            "koma": "sa7",
             "url": "https://ragna-crimson.com/",
+            "kw": ""
+        },
+        "葬送のフリーレン(配信)": {
+            "aid": "241059nh",
+            "time": "24:00",
+            "koma": "sa7",
+            "url": "https://frieren-anime.jp/",
             "kw": ""
         }
     }
