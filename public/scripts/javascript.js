@@ -28,6 +28,14 @@ document.addEventListener("DOMContentLoaded", function () {
     let target = document.getElementById(season);
     target.classList.remove("select_season_not_selected");
     target.classList.add("select_season_selected");
+    // nendoを自動的に選択
+    let dropdown = document.getElementById("select_year");
+    dropdown.value = "20" + nendo;
+    // dropdownのリスナー
+    dropdown.addEventListener('change', () => {
+        nendo = dropdown.value.slice(-2);
+        refresh_table(anime_title_obj, jikan, youbi);
+    });
     loadJSON()
         .then(anime_title_obj => {
             buildHTML(anime_title_obj);
@@ -174,9 +182,7 @@ function buildHTML(anime_title_obj) {
                 let this_anime_list = anime_title_obj[nendo + season];
                 if (this_anime_list == null || this_anime_list == undefined) {
                     // データベース未更新用の仮
-                    nendo = "23";
-                    season = "aki";
-                    this_anime_list = anime_title_obj[nendo + season];
+                    this_anime_list = {};
                 }
                 for (let i = 0; i < data_list.length; i++) {
                     let aid = nendo + season_num + data_list[i];
@@ -205,8 +211,9 @@ function buildHTML(anime_title_obj) {
 
     // クエリを受け取るためのイベントハンドラを追加
     window.addEventListener('message', function (event) {
+        if (event == null || event.data == null) return;
         // event.dataに送られてきたデータ
-        let urlParams = event.data;
+        let urlParams = (typeof event.data === 'string') ? event.data : "";
         /* aidをクエリからとる */
         let startIndex = urlParams.indexOf("aid=");
         if (startIndex != -1) {
@@ -221,14 +228,12 @@ function buildHTML(anime_title_obj) {
     isloading = false;
 }
 
-/* 季節が変わったときもここ */
+/* 年、季節が変わったときもここ */
 function refresh_table(anime_title_obj, jikan, youbi) {
     let this_anime_list = anime_title_obj[nendo + season];
     if (this_anime_list == null || this_anime_list == undefined) {
         // データベース未更新用の仮
-        nendo = "23";
-        season = "aki";
-        this_anime_list = anime_title_obj[nendo + season];
+        this_anime_list = {};
     }
     let keys = Object.keys(this_anime_list);
     /* ur_animeを初期化する2(季節変えたときよう) */
@@ -425,9 +430,7 @@ function createSharedTable(aidValue) {
     let shared_this_anime_list = anime_title_obj[nendo + season];
     if (shared_this_anime_list == null || shared_this_anime_list == undefined) {
         // データベース未更新用の仮
-        nendo = "23";
-        season = "aki";
-        shared_this_anime_list = anime_title_obj[nendo + season];
+        shared_this_anime_list = {};
     }
     for (let i = 0; i < data.length; i++) {
         let aid = nendo + season_num + data[i];
@@ -515,6 +518,7 @@ function handleCellClick(event) {
     haru.title = (kind === "haru") ? "春アニメを表示しています。" : "春アニメを表示します。";
     natu.title = (kind === "natu") ? "夏アニメを表示しています。" : "夏アニメを表示します。";
     aki.title = (kind === "aki") ? "秋アニメを表示しています。" : "秋アニメを表示します。";
+    season = kind;
     refresh_table(anime_title_obj, jikan, youbi, kind, getCurrentJapanTime().getFullYear().toString().slice(-2));
 }
 
