@@ -11,20 +11,20 @@ const anime_table_startelm = document.getElementById("anime_table_start");
 const result_table_startelm = document.getElementById("result_table_start");
 const shared_table_startelm = document.getElementById("shared_table_start");
 var anime_title_obj = {};
-/* loading */
+// loading
 var isloading = true;
-/* 追加削除切り替え */
+// 追加削除切り替え
 var toggle_mode = "add";
-/* 年度季節管理用 */
+// 年度季節管理用
 var nendo = getCurrentJapanTime().getFullYear().toString().slice(-2);
 var season = getSeasonByMonth();
 
-/* ページが読み込まれたとき */
+// ページが読み込まれたとき
 document.addEventListener("DOMContentLoaded", function () {
-    /* JSdisabledをけす */
+    // JSdisabledをけす
     let JSdisabled = document.getElementById("JSdisabled");
     JSdisabled.remove();
-    /* 初めに自動的に季節を選択 */
+    // 初めに自動的に季節を選択
     let target = document.getElementById(season);
     target.classList.remove("select_season_not_selected");
     target.classList.add("select_season_selected");
@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
             buildHTML(anime_title_obj);
         });
 });
-/* JSONを読み込む */
+// JSONを読み込む
 function loadJSON() {
     return new Promise((resolve, reject) => {
         let request = new XMLHttpRequest();
@@ -61,8 +61,8 @@ function loadJSON() {
 }
 
 function buildHTML(anime_title_obj) {
-    /* マス関係 */
-    /* 11行目はその他の時間 */
+    // マス関係
+    // 11行目はその他の時間
     var insert_table = '';
     for (let i = 1; i <= jikan; i++) {
         let time_hyouji_s = "";
@@ -86,14 +86,14 @@ function buildHTML(anime_title_obj) {
     anime_table_startelm.insertAdjacentHTML('beforeend', insert_table);
     result_table_startelm.insertAdjacentHTML('beforeend', result_insert_table);
     shared_table_startelm.insertAdjacentHTML('beforeend', shared_insert_table);
-    /* テーブルを更新する */
+    // テーブルを更新する
     refresh_table(anime_title_obj, jikan, youbi);
-    /* 季節ボタンをクリックしたときの処理 */
+    // 季節ボタンをクリックしたときの処理
     let cells = document.querySelectorAll('.select_season');
     cells.forEach(cell => {
         cell.addEventListener('click', handleCellClick);
     });
-    /* tweetbuttonの表示切替リスナー */
+    // tweetbuttonの表示切替リスナー
     let tweetbutton = document.getElementById("TweetButton");
     let toTOPbutton = document.getElementById("TopButton");
     let buttonvisible = document.getElementById("ButtonVisible");
@@ -112,29 +112,29 @@ function buildHTML(anime_title_obj) {
             toggle_button.style.display = "none";
         }
     }
-    /* トグルのリセット */
+    // トグルのリセット
     let toggleCheckbox = document.getElementById('toggle');
     toggleCheckbox.checked = false;
-    /* 検索ボックスのリセット */
+    // 検索ボックスのリセット
     let searchBox = document.getElementById("sbox");
     searchBox.value = "";
-    /* フォーム無効化 */
+    // フォーム無効化
     let form = document.getElementById("form1");
     function disableFormSubmit(event) {
         event.preventDefault();
     }
     form.addEventListener("submit", disableFormSubmit);
 
-    /* importボックスのリセット */
+    // importボックスのリセット
     let importBox = document.getElementById("dataImport_input");
     importBox.value = "";
-    /* importフォーム無効化 */
+    // importフォーム無効化
     let importForm = document.getElementById("dataImport_form");
     function disableFormSubmit(event) {
         event.preventDefault();
     }
     importForm.addEventListener("submit", disableFormSubmit);
-    /* 凡例のインジェクション */
+    // 凡例のインジェクション
     let hanrei = document.getElementById("hanrei");
     let temp_txt = `<div>${icon_da}:dアニメ</div>`;
     temp_txt += `<div>${icon_at}:AT-X</div>`;
@@ -214,7 +214,7 @@ function buildHTML(anime_title_obj) {
         if (event == null || event.data == null) return;
         // event.dataに送られてきたデータ
         let urlParams = (typeof event.data === 'string') ? event.data : "";
-        /* aidをクエリからとる */
+        // aidをクエリからとる
         let startIndex = urlParams.indexOf("aid=");
         if (startIndex != -1) {
             let aidValue = urlParams.slice(startIndex + 4);
@@ -222,13 +222,13 @@ function buildHTML(anime_title_obj) {
         }
     });
 
-    /* 最後に、loadingを消す */
+    // 最後に、loadingを消す
     let loading = document.getElementById("loading");
     loading.classList.add("load_closed");
     isloading = false;
 }
 
-/* 年、季節が変わったときもここ */
+// 年、季節が変わったときもここ
 function refresh_table(anime_title_obj, jikan, youbi) {
     let this_anime_list = anime_title_obj[nendo + season];
     if (this_anime_list == null || this_anime_list == undefined) {
@@ -236,7 +236,7 @@ function refresh_table(anime_title_obj, jikan, youbi) {
         this_anime_list = {};
     }
     let keys = Object.keys(this_anime_list);
-    /* ur_animeを初期化する2(季節変えたときよう) */
+    // ur_animeを初期化する2(季節変えたときよう)
     for (let i = 1; i <= jikan; i++) {
         for (let j = 0; j < youbi.length; j++) {
             let elm = document.getElementById("ur_" + youbi[j] + i)
@@ -245,17 +245,17 @@ function refresh_table(anime_title_obj, jikan, youbi) {
     }
     for (let i = 1; i <= jikan; i++) {
         for (let j = 0; j < youbi.length; j++) {
-            /* listを削除してから生成 */
+            // listを削除してから生成
             let list_startelm = document.getElementById(youbi[j] + i);
             list_startelm.innerHTML = `<td class="anime_dropdown"><select id=${youbi[j] + i + "_list"} ><option value="" selected></option></select><td>`;
-            /* list_startelm.insertAdjacentHTML('beforeend', `<select id=${youbi[j] + i + "_list"}><option value="" selected></option></select>`); */
-            /* listにoptionを追加 */
+            // list_startelm.insertAdjacentHTML('beforeend', `<select id=${youbi[j] + i + "_list"}><option value="" selected></option></select>`);
+            // listにoptionを追加
             let list = document.getElementById(youbi[j] + i + "_list");
             for (let k = 0; k < keys.length; k++) {
                 let key = keys[k];
                 if (this_anime_list[key]["koma"] == (youbi[j] + i)) {
-                    /* let c = getCookie(nendo + season + "_" + youbi[j] + i); */
-                    /* if(c.includes(this_anime_list[key]["aid"])) continue; */
+                    // let c = getCookie(nendo + season + "_" + youbi[j] + i);
+                    // if(c.includes(this_anime_list[key]["aid"])) continue;
                     let option = document.createElement("option");
                     option.value = this_anime_list[key]["aid"];
                     option.text = key;
@@ -263,15 +263,15 @@ function refresh_table(anime_title_obj, jikan, youbi) {
                 }
             }
             list.value = "";
-            /* イベントハンドラ関数 */
+            // イベントハンドラ関数
             function handleListChange() {
                 let selectedValue = list.value;
                 if (selectedValue == "") return;
-                /* 複数アニメにも対応にも対応 */
-                /* 更新されたときur_animeを更新する */
+                // 複数アニメにも対応にも対応
+                // 更新されたときur_animeを更新する
                 let cookie_data = getCookie(nendo + season + "_" + youbi[j] + i);
                 if (cookie_data == null) cookie_data = "";
-                /* ここら辺、追加/削除で分ける */
+                // ここら辺、追加/削除で分ける
                 let elm = document.getElementById("ur_" + youbi[j] + i)
                 let key = list.options[list.selectedIndex].text;
                 if (toggle_mode == "add") {
@@ -288,13 +288,13 @@ function refresh_table(anime_title_obj, jikan, youbi) {
                     elm.innerHTML = elm.innerHTML.replace(regex, "");
                 }
                 setCookie(nendo + season + "_" + youbi[j] + i, cookie_data);
-                /* 記録したら空白にする */
+                // 記録したら空白にする
                 list.value = "";
             }
-            /* イベントリスナーを追加して変更を監視 */
+            // イベントリスナーを追加して変更を監視
             list.addEventListener("change", handleListChange);
             let cookie_data = getCookie(nendo + season + "_" + youbi[j] + i);
-            /* ur_animeを更新する(もしcookieにデータがあれば) */
+            // ur_animeを更新する(もしcookieにデータがあれば)
             if (cookie_data) {
                 let elm = document.getElementById("ur_" + youbi[j] + i)
                 let cookie_list = [];
@@ -308,31 +308,44 @@ function refresh_table(anime_title_obj, jikan, youbi) {
                         let txt = convert2svg(this_anime_list, key);
                         if (this_anime_list[key]["aid"] == cookie) {
                             elm.innerHTML += `<a href="${this_anime_list[key]["url"]}" class="ur_a" id="${this_anime_list[key]["aid"]}" target="_blank">${txt}</a><br>`
+                            // 削除モードのときは、a hrefのジャンプを無効化し、クリックで削除する
+                            elm.addEventListener('click', () => {
+                                if (toggle_mode == "remove") {
+                                    // a hrefのジャンプを無効化
+                                    event.preventDefault();
+                                    let cookie_data = getCookie(nendo + season + "_" + youbi[j] + i);
+                                    if (cookie_data == null) cookie_data = "";
+                                    cookie_data = cookie_data.replace(this_anime_list[key]["aid"], "");
+                                    let regex = new RegExp(`<a[^>]*id="${this_anime_list[key]["aid"]}"[^>]*>.*?</a><br>`, "g");
+                                    elm.innerHTML = elm.innerHTML.replace(regex, "");
+                                    setCookie(nendo + season + "_" + youbi[j] + i, cookie_data);
+                                }
+                            });
                         }
                     }
                 }
             }
         }
     }
-    /* フォーム無効化 */
+    // フォーム無効化
     let form = document.getElementById("form1");
-    /* 毎回フォームオブジェクトごとリセット */
+    // 毎回フォームオブジェクトごとリセット
     form.innerHTML = '<input id="sbox" id="s" name="s" type="text" placeholder="タイトル・キーワードを入力" />';
-    /* 検索ボックスの構築 */
+    // 検索ボックスの構築
     let searchBox = document.getElementById("sbox");
     searchBox.value = "";
     searchBox.addEventListener('input', handleSearchBoxInput);
     searchBox.addEventListener('focus', handleSearchBoxInput);
-    /* searchBox.addEventListener('blur', handleSearchBoxInput2); */
+    // searchBox.addEventListener('blur', handleSearchBoxInput2);
     function handleSearchBoxInput() {
         let search_container = document.getElementById("search_container");
         let box = document.getElementById("search_result_box");
         let searchQuery = document.getElementById("sbox").value;
-        /* keywordもok */
+        // keywordもok
         let matchingData = keys.filter(function (key) {
             return key.includes(searchQuery) || this_anime_list[key]["kw"].includes(searchQuery);
         });
-        /* 重複を取り除く */
+        // 重複を取り除く
         matchingData = Array.from(new Set(matchingData));
         search_container.innerHTML = "";
         if (matchingData.length > 0 && searchQuery != "") {
@@ -393,7 +406,7 @@ function refresh_table(anime_title_obj, jikan, youbi) {
         box.classList.remove("active");
     }
 }
-/* queryから共有されたテーブルを作成 */
+// queryから共有されたテーブルを作成
 function createSharedTable(aidValue) {
     let modal = document.getElementById("modal");
     let modal_overlay = document.getElementById("modal-overlay");
@@ -404,7 +417,7 @@ function createSharedTable(aidValue) {
         alert("クエリパラメータが不正です。");
         return;
     }
-    /* dataを並べる */
+    // dataを並べる
     let data = [];
     let nendo = aidValue.slice(0, 2);
     let season;
@@ -426,7 +439,7 @@ function createSharedTable(aidValue) {
     for (let i = 0; i < (aidValue.length - 3) / 5; i++) {
         data.push(aidValue.slice(3, aidValue.length).slice(i * 5, (i + 1) * 5));
     }
-    /* テーブルを作成 */
+    // テーブルを作成
     let shared_this_anime_list = anime_title_obj[nendo + season];
     if (shared_this_anime_list == null || shared_this_anime_list == undefined) {
         // データベース未更新用の仮
@@ -446,7 +459,7 @@ function createSharedTable(aidValue) {
 
 
 
-/* svgに変換 */
+// svgに変換
 function convert2svg(this_anime_list, key) {
     let txt = key;
     if (this_anime_list[key]["aid"].includes("fo")) {
@@ -473,7 +486,7 @@ function convert2svg(this_anime_list, key) {
         txt += icon_az;
         txt = txt.replaceAll("(Amazon)", "");
     }
-    /* 更に、開始時間も追加 */
+    // 更に、開始時間も追加
     let starttime = this_anime_list[key]["time"];
     txt += `<span class="starttime">(${starttime})</span>`;
     return txt;
@@ -496,20 +509,20 @@ function getCookie(name) {
     }
     return null;
 }
-/* 季節きりかえ */
+// 季節きりかえ
 function handleCellClick(event) {
     let clickedCell = event.currentTarget;
     let kind = clickedCell.getAttribute('id');
-    /* すべてのセルから選択状態を解除 */
+    // すべてのセルから選択状態を解除
     let cells = document.querySelectorAll('.select_season');
     cells.forEach(cell => {
         cell.classList.remove("select_season_selected");
         cell.classList.add("select_season_not_selected");
     });
-    /* クリックされたセルを選択状態に変更 */
+    // クリックされたセルを選択状態に変更
     clickedCell.classList.remove("select_season_not_selected");
     clickedCell.classList.add("select_season_selected");
-    /* タイトルを設定 */
+    // タイトルを設定
     let fuyu = document.getElementById("fuyu");
     let haru = document.getElementById("haru");
     let natu = document.getElementById("natu");
@@ -522,35 +535,35 @@ function handleCellClick(event) {
     refresh_table(anime_title_obj, jikan, youbi, kind, getCurrentJapanTime().getFullYear().toString().slice(-2));
 }
 
-/* 日本時間を取得する関数 */
+// 日本時間を取得する関数
 function getCurrentJapanTime() {
     let now = new Date();
     let japanTime = new Date(now.toLocaleString("en-US", { timeZone: "Asia/Tokyo" }));
     return japanTime;
 }
-/* 現在の月を取得 */
+// 現在の月を取得
 function getCurrentMonth() {
     let japanTime = getCurrentJapanTime();
-    return japanTime.getMonth() + 1; /* 月は0から始まるため+1する */
+    return japanTime.getMonth() + 1; // 月は0から始まるため+1する
 }
-/* 季節を選択する関数 */
+// 季節を選択する関数
 function getSeasonByMonth() {
     let currentMonth = getCurrentMonth();
-    let selectedSeason = "fuyu"; /* デフォルトは冬 */
-    /* 月に応じて季節を設定 */
+    let selectedSeason = "fuyu"; // デフォルトは冬
+    // 月に応じて季節を設定
     if (currentMonth >= 4 && currentMonth <= 6) {
-        selectedSeason = "haru"; /* 4-6月は春 */
+        selectedSeason = "haru"; // 4-6月は春
     } else if (currentMonth >= 7 && currentMonth <= 9) {
-        selectedSeason = "natu"; /* 7-9月は夏 */
+        selectedSeason = "natu"; // 7-9月は夏
     } else if (currentMonth >= 10 && currentMonth <= 12) {
-        selectedSeason = "aki"; /* 10-12月は秋 */
+        selectedSeason = "aki"; // 10-12月は秋
     }
     return selectedSeason
 }
 
-/* アニメテーブルを表示切替 */
+// アニメテーブルを表示切替
 $("#AnimeTableVisible").click(function () {
-    /* classにactiveがないとき */
+    // classにactiveがないとき
     if ($(this).attr("class") !== "active") {
         $("#anime_table").toggleClass("active");
         $(this).toggleClass("active");
@@ -560,26 +573,36 @@ $("#AnimeTableVisible").click(function () {
     }
 });
 
-/* 追加削除のトグル */
+// 追加削除のトグル
 $(".toggle_button").click(function () {
-    /* toggleのactiveないとき */
+    // toggleのactiveないとき
     if ($("#toggle_moji").attr("class") !== "inactive") {
         $(".anime_dropdown > select").toggleClass("red");
         $("#search_result_box").toggleClass("red");
         $("#toggle_moji").toggleClass("inactive");
         $("#toggle_moji").html("削除");
         toggle_mode = "remove";
+        // class: ur_a すべてにur_a_removeを追加
+        let ur_as = document.getElementsByClassName("ur_a");
+        for (let i = 0; i < ur_as.length; i++) {
+            ur_as[i].classList.add("ur_a_remove");
+        }
     } else {
-        /* addへ */
+        // addへ
         $(".anime_dropdown > select").removeClass("red");
         $("#search_result_box").removeClass("red");
         $("#toggle_moji").removeClass("inactive");
         $("#toggle_moji").html("追加");
         toggle_mode = "add";
+        // class: ur_a すべてにur_a_removeを削除
+        let ur_as = document.getElementsByClassName("ur_a");
+        for (let i = 0; i < ur_as.length; i++) {
+            ur_as[i].classList.remove("ur_a_remove");
+        }
     }
 });
 
-/* ハンバーガーメニュー */
+// ハンバーガーメニュー
 $(".openbtn").click(function () {
     $(this).toggleClass('active');
     $("#g-nav").toggleClass('panelactive');
@@ -591,7 +614,7 @@ $("#g-nav a").click(function () {
 });
 
 
-/* topボタン */
+// topボタン
 $(function () {
     var pagetop = $('#TopButton');
     pagetop.hide();
@@ -608,13 +631,13 @@ $(function () {
     });
 });
 
-/* 最初のポップアップ */
+// 最初のポップアップ
 $(".close-button_shared").click(function () {
     $("#modal").toggleClass("closed");
     $("#modal-overlay").toggleClass("closed");
 });
 
-/* tweetbutton */
+// tweetbutton
 $("#TweetButton").click(function () {
     let isFirst = true;
     let tweetText = "";
@@ -637,18 +660,18 @@ $("#TweetButton").click(function () {
 });
 
 $(function () {
-    /* モーダル領域をクリックでフェードアウトさせる */
+    // モーダル領域をクリックでフェードアウトさせる
     $('.text').click(function () {
         let search_container = document.getElementById("search_container");
         let box = document.getElementById("search_result_box");
         search_container.innerHTML = "";
         box.classList.remove("active");
     });
-    /* がしかし、画像をクリックでキャンセルさせる */
+    // がしかし、画像をクリックでキャンセルさせる
     $('#search_result_box').on('click', function (e) {
         e.stopPropagation();
     });
-    /* form1もキャンセル */
+    // form1もキャンセル
     $('#form1').on('click', function (e) {
         e.stopPropagation();
     });
@@ -662,15 +685,15 @@ $("#dataImportTriggerButton").click(function () {
     $("#modal-overlay_1").removeClass("closed");
 });
 
-/* インポートとじるボタン */
+// インポートとじるボタン
 $(".close-button_1").click(function () {
     $("#modal_1").toggleClass("closed");
     $("#modal-overlay_1").toggleClass("closed");
-    /* cookieに記録 => 結果表示に再利用 */
-    /* setCookie("visited", "true"); */
+    // cookieに記録 => 結果表示に再利用
+    // setCookie("visited", "true");
 });
 
-/* 入力の部分のズーム対策 */
+// 入力の部分のズーム対策
 var ua = navigator.userAgent.toLowerCase();
 var isiOS = (ua.indexOf('iphone') > -1) || (ua.indexOf('ipad') > -1);
 if (isiOS) {
